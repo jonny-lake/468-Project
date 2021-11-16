@@ -56,7 +56,7 @@ rotate_right_register #(4)RRR(R2,w4);
 
 
 begin
-always @ (w1)
+always @ (w1 or SR_Control or S or op_code)
 if (w1==0) 
  out = out;
 else 

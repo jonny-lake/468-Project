@@ -9,7 +9,7 @@ output reg[32:0]out;
 
 
 wire w1;
-wire [32:0]w2,w3,w4;// helps organize opcode directory
+wire [31:0]w2,w3,w4;// helps organize opcode directory
 
 wire [32:0]n1,n2,n3,n4,n5,n6;//this is for non opcode computation
 wire [32:0]sr1,sr2,sr3,sr4,sr5,sr6;//this is for 001 opcode computation
@@ -56,7 +56,7 @@ rotate_right_register #(4)RRR(R2,w4);
 
 
 begin
-always @ (w1)
+always @ (w1 or SR_Control or S or op_code or)
 if (w1==0) 
  out = out;
 else 

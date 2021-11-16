@@ -440,7 +440,7 @@ R21
 8C:/Users/keati/Documents/FourthYear/ENGR468/four_universal_shift.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/four_universal_shift.v
 !i122 93
-Z25 L0 1 25
+L0 1 25
 R4
 r1
 !s85 0
@@ -452,7 +452,7 @@ R22
 R5
 R6
 vmove_register
-Z26 !s110 1637035024
+Z25 !s110 1637035024
 !i10b 1
 !s100 c=<jGV_lCf<]:jOcnnEno2
 R0
@@ -486,7 +486,7 @@ w1634931531
 8C:/Users/keati/Documents/FourthYear/ENGR468/parameterized_decoder.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/parameterized_decoder.v
 !i122 98
-Z27 L0 1 10
+Z26 L0 1 10
 R4
 r1
 !s85 0
@@ -532,7 +532,7 @@ w1635551687
 8C:/Users/keati/Documents/FourthYear/ENGR468/Quiz_three.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/Quiz_three.v
 !i122 111
-R27
+R26
 R4
 r1
 !s85 0
@@ -613,23 +613,23 @@ R15
 R5
 R6
 vsimple_ALU
-R26
+!s110 1637037041
 !i10b 1
-!s100 z30YX;?ThKfKCHAZRXVeC1
+!s100 n;be<z3ka=JdAX=TA8i>?2
 R0
-I]C]TgJ1W7>7MgViCVmBMQ2
+IH[WMZ67HYTOlHzOL580?J3
 R1
 R2
-w1637035017
+w1637037037
 8C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v
-!i122 264
+!i122 279
 L0 1 94
 R4
 r1
 !s85 0
 31
-Z28 !s108 1637035024.000000
+!s108 1637037041.000000
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v|
 !i113 1
@@ -645,8 +645,8 @@ IYE5EXAAjDnWc7[@<YNMdY1
 R1
 R2
 w1637012615
-Z29 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v
-Z30 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v
+Z27 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v
+Z28 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v
 !i122 174
 R19
 R4
@@ -654,14 +654,14 @@ r1
 !s85 0
 31
 !s108 1637012621.000000
-Z31 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v|
-Z32 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v|
+Z29 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v|
+Z30 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v|
 !i113 1
 R5
 R6
 n@test_@add
 vTest_Addder
-R26
+R25
 !i10b 1
 !s100 7fzX?3ckL4Tz`=E^BkN^P0
 R0
@@ -669,39 +669,39 @@ IM@OLB>Vbfj3Mij4iSCd802
 R1
 R2
 w1637013935
-R29
-R30
+R27
+R28
 !i122 265
 R19
 R4
 r1
 !s85 0
 31
-R28
-R31
-R32
+Z31 !s108 1637035024.000000
+R29
+R30
 !i113 1
 R5
 R6
 n@test_@addder
 vTest_ALU
-!s110 1637035553
+!s110 1637041501
 !i10b 1
-!s100 oc0akDo9k^6]5ondCG9@93
+!s100 _W?6Xjik[gNc<a3^S=zkH2
 R0
-I42h4]]UGQ]<:8Hndi=[VA3
+IlbX:hMOZf5H<OLDEj6FWU1
 R1
 R2
-w1637035545
+w1637041496
 8C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v
-!i122 278
-R25
+!i122 282
+L0 1 42
 R4
 r1
 !s85 0
 31
-!s108 1637035553.000000
+!s108 1637041501.000000
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v|
 !i113 1
@@ -709,7 +709,7 @@ R5
 R6
 n@test_@a@l@u
 vTest_AND
-Z33 !s110 1637035025
+Z32 !s110 1637035025
 !i10b 1
 !s100 NC=OR8A2<lGjmQ>R7=2IM1
 R0
@@ -720,12 +720,12 @@ w1637015153
 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_AND.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_AND.v
 !i122 269
-Z34 L0 1 17
+Z33 L0 1 17
 R4
 r1
 !s85 0
 31
-Z35 !s108 1637035025.000000
+Z34 !s108 1637035025.000000
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_AND.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_AND.v|
 !i113 1
@@ -733,7 +733,7 @@ R5
 R6
 n@test_@a@n@d
 vTest_bitwiseOR
-R33
+R32
 !i10b 1
 !s100 >kjzIh`6L:zT<C4U>Loek1
 R0
@@ -744,12 +744,12 @@ w1637014958
 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_OR.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_OR.v
 !i122 268
-R34
+R33
 R4
 r1
 !s85 0
 31
-R35
+R34
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_OR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_OR.v|
 !i113 1
@@ -781,7 +781,7 @@ R5
 R6
 n@test_@counter
 vTest_leftshift
-Z36 !s110 1637035026
+Z35 !s110 1637035026
 !i10b 1
 !s100 ZjOm14R^4hl[5_TiGV7A82
 R0
@@ -792,12 +792,12 @@ w1637015924
 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_leftshift.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_leftshift.v
 !i122 272
-Z37 L0 1 16
+Z36 L0 1 16
 R4
 r1
 !s85 0
 31
-Z38 !s108 1637035026.000000
+Z37 !s108 1637035026.000000
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_leftshift.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_leftshift.v|
 !i113 1
@@ -805,7 +805,7 @@ R5
 R6
 n@test_leftshift
 vTest_multip
-R26
+R25
 !i10b 1
 !s100 c5JnnS[G;TAh4lAh?>oF@0
 R0
@@ -816,12 +816,12 @@ w1637014734
 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_multiplier.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_multiplier.v
 !i122 267
-R34
+R33
 R4
 r1
 !s85 0
 31
-R28
+R31
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_multiplier.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_multiplier.v|
 !i113 1
@@ -864,7 +864,7 @@ w1634932141
 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_parmetrized_decoder.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_parmetrized_decoder.v
 !i122 99
-R37
+R36
 R4
 r1
 !s85 0
@@ -900,7 +900,7 @@ r1
 R5
 R6
 vTest_rightshift
-R33
+R32
 !i10b 1
 !s100 Z0GgL8K^8K8=f53DCNK5k2
 R0
@@ -916,7 +916,7 @@ R4
 r1
 !s85 0
 31
-R35
+R34
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rightshift.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rightshift.v|
 !i113 1
@@ -924,7 +924,7 @@ R5
 R6
 n@test_rightshift
 vTest_rotateright
-R36
+R35
 !i10b 1
 !s100 5Gz1`m^3mRmB=9o8HGTS^2
 R0
@@ -935,12 +935,12 @@ w1637016288
 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rotateright.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_rotateright.v
 !i122 273
-R37
+R36
 R4
 r1
 !s85 0
 31
-R38
+R37
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rotateright.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rotateright.v|
 !i113 1
@@ -948,7 +948,7 @@ R5
 R6
 n@test_rotateright
 vTest_sub
-R26
+R25
 !i10b 1
 !s100 <^b@NY@8k5EdgJeS;?V:j0
 R0
@@ -959,12 +959,12 @@ w1637014704
 8C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_subtractor.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/Testbench_subtractor.v
 !i122 266
-R34
+R33
 R4
 r1
 !s85 0
 31
-R28
+R31
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_subtractor.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_subtractor.v|
 !i113 1
@@ -1003,8 +1003,8 @@ I`cg_fg6J;C=VF5C@RF91h3
 R1
 R2
 w1634752800
-Z39 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_universal_counter.v
-Z40 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_universal_counter.v
+Z38 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_universal_counter.v
+Z39 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_universal_counter.v
 !i122 97
 L0 1 34
 R4
@@ -1012,13 +1012,13 @@ r1
 !s85 0
 31
 R22
-Z41 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_universal_counter.v|
-Z42 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_universal_counter.v|
+Z40 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_universal_counter.v|
+Z41 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_universal_counter.v|
 !i113 1
 R5
 R6
 vTest_XOR
-R33
+R32
 !i10b 1
 !s100 TN1H942?Fn:lkmiSGBe^M0
 R0
@@ -1029,12 +1029,12 @@ w1637015334
 8C:/Users/keati/Documents/FourthYear/ENGR468/testbench_XOR.v
 FC:/Users/keati/Documents/FourthYear/ENGR468/testbench_XOR.v
 !i122 270
-R34
+R33
 R4
 r1
 !s85 0
 31
-R35
+R34
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_XOR.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_XOR.v|
 !i113 1
@@ -1042,7 +1042,7 @@ R5
 R6
 n@test_@x@o@r
 vTest_zero
-Z43 !s110 1634345311
+Z42 !s110 1634345311
 !i10b 1
 !s100 SK`Da0bMm]^9KT<;J00dU0
 R0
@@ -1058,7 +1058,7 @@ R4
 r1
 !s85 0
 31
-Z44 !s108 1634345311.000000
+Z43 !s108 1634345311.000000
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/testbench_zero_detector.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/testbench_zero_detector.v|
 !i113 1
@@ -1074,8 +1074,8 @@ I]:X28nnoLoY:j[BET5f451
 R1
 R2
 w1634746841
+R38
 R39
-R40
 !i122 78
 L0 1 31
 R4
@@ -1083,13 +1083,13 @@ r1
 !s85 0
 31
 !s108 1634746848.000000
+R40
 R41
-R42
 !i113 1
 R5
 R6
 vzero_detector
-R43
+R42
 !i10b 1
 !s100 `o?]fFcmEOa=J3z`1GTTS1
 R0
@@ -1105,7 +1105,7 @@ R4
 r1
 !s85 0
 31
-R44
+R43
 !s107 C:/Users/keati/Documents/FourthYear/ENGR468/zero_detector.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/FourthYear/ENGR468/zero_detector.v|
 !i113 1
