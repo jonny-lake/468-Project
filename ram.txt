@@ -1,0 +1,8 @@
+#                    0clock.=1, read/write bit.=0, data in to RAM.=00000000000000001111110010101011, address into RAM.=1010101111001101, data out of ram.=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   10clock.=0, read/write bit.=0, data in to RAM.=00000000000000001111110010101011, address into RAM.=1010101111001101, data out of ram.=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   20clock.=1, read/write bit.=1, data in to RAM.=00010001000000000001000100000000, address into RAM.=1010101111001101, data out of ram.=00000000000000001111110010101011
+#                   30clock.=0, read/write bit.=1, data in to RAM.=00010001000000000001000100000000, address into RAM.=1010101111001101, data out of ram.=00000000000000001111110010101011
+#                   40clock.=1, read/write bit.=0, data in to RAM.=00000000000100010000000000010001, address into RAM.=0000000000010001, data out of ram.=00000000000000001111110010101011
+#                   50clock.=0, read/write bit.=0, data in to RAM.=00000000000100010000000000010001, address into RAM.=0000000000010001, data out of ram.=00000000000000001111110010101011
+#                   60clock.=1, read/write bit.=1, data in to RAM.=00000001000000010001000000010000, address into RAM.=0000000000010001, data out of ram.=00000000000100010000000000010001
+#                   70clock.=0, read/write bit.=1, data in to RAM.=00000001000000010001000000010000, address into RAM.=0000000000010001, data out of ram.=00000000000100010000000000010001
