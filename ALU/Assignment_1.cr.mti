@@ -1,0 +1,77 @@
+C:/Users/keati/Documents/FourthYear/ENGR468/Adder.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Add
+
+Top level modules:
+	Add
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Counter.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/testbench_zero_detector.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/testbench_zero_detector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_zero
+
+Top level modules:
+	Test_zero
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/test.v {0 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module three_majorority
+** Error: (vlog-13069) C:/Users/keati/Documents/FourthYear/ENGR468/test.v(34): near "else": syntax error, unexpected else.
+
+} {4.0 5.0} {}} C:/Users/keati/Documents/FourthYear/ENGR468/zero_detector.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/zero_detector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module zero_detector
+
+Top level modules:
+	zero_detector
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/four_to_sixteen_Decoder.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/four_to_sixteen_Decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module four_to_sixteen_Decoder
+
+Top level modules:
+	four_to_sixteen_Decoder
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/four_to_two_encoder.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/four_to_two_encoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module four_to_two_encoder
+
+Top level modules:
+	four_to_two_encoder
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/four_bit_paralell_load_asynch.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/four_bit_paralell_load_asynch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module paralell_load_asynch
+
+Top level modules:
+	paralell_load_asynch
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v {2 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_Add
+** Warning: C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v(15): (vlog-2643) Unterminated string literal continues onto next line.
+
+Top level modules:
+	Test_Add
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/testbench_counter.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/testbench_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_Counter
+
+Top level modules:
+	Test_Counter
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_paralell_load.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_paralell_load.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_paralell
+
+Top level modules:
+	Test_paralell
+
+} {} {}}

@@ -1,0 +1,6 @@
+module rotate_right_register(din,qout);
+parameter n=4;
+input[31:0]din;
+output[32:0]qout;
+assign qout = {din[n:0],din[32:n+1]};
+endmodule

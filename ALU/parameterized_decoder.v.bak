@@ -1,0 +1,29 @@
+module n_m_decoder(in,out);
+parameter n=2;
+parameter m=4;
+
+input [n-1:0]in;
+output reg[m-1:0]out;
+always @*
+begin
+case(in)
+n'b0000: out = m'b0000000000000001;
+n'b0001: out = m'b0000000000000010;
+n'b0010: out = m'b0000000000000100;
+n'b0011: out = m'b0000000000001000;
+n'b0100: out = m'b0000000000010000;
+n'b0101: out = m'b0000000000100000;
+n'b0110: out = m'b0000000001000000;
+n'b0111: out = m'b0000000010000000;
+n'b1000: out = m'b0000000100000000;
+n'b1001: out = m'b0000001000000000;
+n'b1010: out = m'b0000010000000000;
+n'b1011: out = m'b0000100000000000;
+n'b1100: out = m'b0001000000000000;
+n'b1101: out = m'b0010000000000000;
+n'b1110: out = m'b0100000000000000;
+n'b1111: out = m'b1000000000000000;
+default: out = m'b0000000000000000;
+end case
+end
+endmodule
