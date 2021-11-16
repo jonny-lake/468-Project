@@ -1,0 +1,21 @@
+run
+#                    0EN=0, clk=0, write reg  0: input=00000000000000000000000000000000, read reg  0: output=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read reg  0: output=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                   10EN=0, clk=1, write reg  0: input=00000000000000000000000000000000, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+#                   20EN=0, clk=0, write reg  0: input=00000000000000000000000000000000, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+#                   30EN=0, clk=1, write reg  0: input=00000000000000000000000000000000, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+#                   40EN=0, clk=0, write reg  0: input=00000000000000000000000000000000, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+#                   50EN=0, clk=1, write reg  0: input=00000000000000000000000000000000, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+#                   60EN=0, clk=0, write reg  0: input=00000000000000000000000000000000, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+#                   70EN=0, clk=1, write reg  0: input=00000000000000000000000000000000, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+#                   80EN=0, clk=0, write reg  0: input=00000000000000000000000000000000, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz, read reg  0: output=zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+#                   90EN=1, clk=1, write reg  1: input=01000010010101101000001110011001, read reg  0: output=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read reg  0: output=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  100EN=1, clk=0, write reg  1: input=01000010010101101000001110011001, read reg  0: output=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, read reg  0: output=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  110EN=1, clk=1, write reg  2: input=00000000001001110001000110101000, read reg  1: output=01000010010101101000001110011001, read reg  0: output=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  120EN=1, clk=0, write reg  2: input=00000000001001110001000110101000, read reg  1: output=01000010010101101000001110011001, read reg  0: output=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#                  130EN=1, clk=1, write reg  3: input=00000000000000100010001000110001, read reg  2: output=00000000001001110001000110101000, read reg  1: output=01000010010101101000001110011001
+#                  140EN=1, clk=0, write reg  3: input=00000000000000100010001000110001, read reg  2: output=00000000001001110001000110101000, read reg  1: output=01000010010101101000001110011001
+#                  150EN=1, clk=1, write reg  3: input=00000000000000100010001000110001, read reg  2: output=00000000001001110001000110101000, read reg  1: output=01000010010101101000001110011001
+#                  160EN=1, clk=0, write reg  3: input=00000000000000100010001000110001, read reg  2: output=00000000001001110001000110101000, read reg  1: output=01000010010101101000001110011001
+#                  170EN=1, clk=1, write reg  3: input=00000000000000100010001000110001, read reg  2: output=00000000001001110001000110101000, read reg  1: output=01000010010101101000001110011001
+#                  180EN=1, clk=0, write reg  3: input=00000000000000100010001000110001, read reg  2: output=00000000001001110001000110101000, read reg  1: output=01000010010101101000001110011001
+#                  190EN=1, clk=1, write reg  3: input=00000000000000100010001000110001, read reg  2: output=00000000001001110001000110101000, read reg  1: output=01000010010101101000001110011001
