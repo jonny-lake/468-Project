@@ -9,6 +9,7 @@ output reg[32:0]out;
 
 
 wire w1;
+wire[3:0]fl;
 wire [31:0]w2,w3,w4;// helps organize opcode directory
 
 wire [32:0]n1,n2,n3,n4,n5,n6;//this is for non opcode computation
@@ -16,8 +17,10 @@ wire [32:0]sr1,sr2,sr3,sr4,sr5,sr6;//this is for 001 opcode computation
 wire [32:0]sl1,sl2,sl3,sl4,sl5,sl6;//this is for 010 opcode computation
 wire [32:0]rr1,rr2,rr3,rr4,rr5,rr6;//this is for 011 opcode computation
 
+assign fl = FLG;
 
-conditions condit(Cond,flags,w1);
+
+conditions condit(Cond,fl,w1);
 shift_right_register #(4)SRR(R2,w2);
 shift_left_register #(4)SLR(R2,w3);
 rotate_right_register #(4)RRR(R2,w4);
@@ -56,7 +59,7 @@ rotate_right_register #(4)RRR(R2,w4);
 
 
 begin
-always @ (w1 or SR_Control or S or op_code or)
+always @ (w1 or SR_Control or S or op_code)
 if (w1==0) 
  out = out;
 else 

@@ -14,543 +14,23 @@
 # Compile of codition.v was successful.
 # Compile of flag_set.v was successful.
 # Compile of mov_register.v was successful.
-# 16 compiles, 0 failed with no errors.
+# Compile of Simple_ALU.v was successful.
 # Compile of Testbench_adder.v was successful.
-# Compile of Testbench_adder.v was successful.
-vsim -gui work.Test_Addder
-# vsim -gui work.Test_Addder 
-# Start time: 14:03:53 on Nov 15,2021
-# Loading work.Test_Addder
-# Loading work.Add
-# ** Error: (vsim-3043) Unresolved reference to 'Result'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_Addder File: C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v Line: 15
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'A'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/Adder.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_Addder/bit_adder File: C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'B'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/Adder.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_Addder/bit_adder File: C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (33) for port 'Sum'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/Adder.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_Addder/bit_adder File: C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v Line: 17
-# Error loading design
-# End time: 14:03:54 on Nov 15,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 9
-# Compile of Testbench_adder.v was successful.
-vsim -gui work.Test_Addder
-# vsim -gui work.Test_Addder 
-# Start time: 14:05:11 on Nov 15,2021
-# Loading work.Test_Addder
-# Loading work.bit_adder
-# ** Error: (vsim-3043) Unresolved reference to 'Result'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_Addder File: C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v Line: 15
-# Error loading design
-# End time: 14:05:11 on Nov 15,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 2
-# Compile of Testbench_adder.v was successful.
-vsim -gui work.Test_Addder
-# vsim -gui work.Test_Addder 
-# Start time: 14:05:52 on Nov 15,2021
-# Loading work.Test_Addder
-# Loading work.bit_adder
-run -all
-#                    01stnum.=         2, 2ndnum.=         3, Sum=         5
-#                   101stnum.=        15, 2ndnum.=        15, Sum=        30
-#                   201stnum.=         6, 2ndnum.=         2, Sum=         8
-#                   301stnum.=         5, 2ndnum.=         9, Sum=        14
-#                   401stnum.=        10, 2ndnum.=        10, Sum=        20
-#                   501stnum.=       255, 2ndnum.=       255, Sum=       510
-quit -sim
-# End time: 14:10:57 on Nov 15,2021, Elapsed time: 0:05:05
-# Errors: 0, Warnings: 2
 # Compile of Testbench_subtractor.v was successful.
-vsim -gui work.Test_sub
-# vsim -gui work.Test_sub 
-# Start time: 14:14:22 on Nov 15,2021
-# Loading work.Test_sub
-# Loading work.bit_subtractor
-# Load canceled
-run -all
-#                    01stnum.=         2, 2ndnum.=         3, Sum=8589934591
-#                   101stnum.=        15, 2ndnum.=        10, Sum=         5
-#                   201stnum.=         6, 2ndnum.=         2, Sum=         4
-#                   301stnum.=         5, 2ndnum.=         2, Sum=         3
-#                   401stnum.=        10, 2ndnum.=         1, Sum=         9
-#                   501stnum.=       255, 2ndnum.=       255, Sum=         0
-quit -sim
-# End time: 14:15:06 on Nov 15,2021, Elapsed time: 0:00:44
-# Errors: 0, Warnings: 4
-# Compile of Testbench_subtractor.v was successful.
-vsim -gui work.Test_sub
-# vsim -gui work.Test_sub 
-# Start time: 14:17:30 on Nov 15,2021
-# Loading work.Test_sub
-# Loading work.bit_multiplier
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bit_multiplier.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_sub/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_subtractor.v Line: 16
-run -all
-#                    01stnum.=         2, 2ndnum.=         2, Sum=         4
-#                   101stnum.=        10, 2ndnum.=        10, Sum=       100
-#                   201stnum.=         6, 2ndnum.=         2, Sum=        12
-#                   301stnum.=         5, 2ndnum.=         2, Sum=        10
-#                   401stnum.=        10, 2ndnum.=         1, Sum=        10
-quit -sim
-# End time: 14:17:51 on Nov 15,2021, Elapsed time: 0:00:21
-# Errors: 0, Warnings: 4
-# Compile of Testbench_subtractor.v was successful.
-# Compile of 32_bit_multiplier.v was successful.
-# Compile of testbench_multiplier.v was successful.
 # Compile of testbench_multiplier.v was successful.
 # Compile of testbench_OR.v was successful.
-# Load canceled
-# Compile of testbench_OR.v was successful.
-vsim -gui work.Test_bitwiseOR
-# vsim -gui work.Test_bitwiseOR 
-# Start time: 14:22:58 on Nov 15,2021
-# Loading work.Test_bitwiseOR
-# Loading work.bitwise_OR
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_bitwiseOR/test File: C:/Users/keati/Documents/FourthYear/ENGR468/testbench_OR.v Line: 16
-run -all
-#                    01stnum.=00000000000000000000000000000010, 2ndnum.=00000000000000000000000000000010, Sum=z00000000000000000000000000000010
-#                   101stnum.=00000000000000000000000000001010, 2ndnum.=00000000000000000000000000001010, Sum=z00000000000000000000000000001010
-#                   201stnum.=00000000000000000000000000000110, 2ndnum.=00000000000000000000000000000010, Sum=z00000000000000000000000000000110
-#                   301stnum.=00000000000000000000000000000101, 2ndnum.=00000000000000000000000000000010, Sum=z00000000000000000000000000000111
-#                   401stnum.=00000000000000000000000000001010, 2ndnum.=00000000000000000000000000000001, Sum=z00000000000000000000000000001011
-quit -sim
-# End time: 14:23:33 on Nov 15,2021, Elapsed time: 0:00:35
-# Errors: 0, Warnings: 11
 # Compile of testbench_AND.v was successful.
-# Load canceled
-vsim -gui work.Test_AND
-# vsim -gui work.Test_AND 
-# Start time: 14:27:11 on Nov 15,2021
-# Loading work.Test_AND
-# Loading work.bitwise_and
-run -all
-#                    01stnum.=00000000000000000000000000000010, 2ndnum.=00000000000000000000000000000010, Sum=000000000000000000000000000000010
-#                   101stnum.=00000000000000000000000000000000, 2ndnum.=00000000000000000000000000001010, Sum=000000000000000000000000000000000
-#                   201stnum.=00000000000000000000000000000110, 2ndnum.=00000000000000000000000000000010, Sum=000000000000000000000000000000010
-#                   301stnum.=00000000000000000000000000000101, 2ndnum.=00000000000000000000000000000010, Sum=000000000000000000000000000000000
-#                   401stnum.=00000000000000000000000000001010, 2ndnum.=00000000000000000000000000000001, Sum=000000000000000000000000000000000
-quit -sim
-# End time: 14:27:39 on Nov 15,2021, Elapsed time: 0:00:28
-# Errors: 0, Warnings: 3
 # Compile of testbench_XOR.v was successful.
-vsim -gui work.Test_XOR
-# vsim -gui work.Test_XOR 
-# Start time: 14:29:22 on Nov 15,2021
-# Loading work.Test_XOR
-# Loading work.bitwise_XOR
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_XOR/test File: C:/Users/keati/Documents/FourthYear/ENGR468/testbench_XOR.v Line: 16
-run -all
-#                    01stnum.=00000000000000000000000000000010, 2ndnum.=00000000000000000000000000000010, Sum=z00000000000000000000000000000000
-#                   101stnum.=00000000000000000000000000001010, 2ndnum.=00000000000000000000000000001010, Sum=z00000000000000000000000000000000
-#                   201stnum.=00000000000000000000000000000110, 2ndnum.=00000000000000000000000000000010, Sum=z00000000000000000000000000000100
-#                   301stnum.=00000000000000000000000000000101, 2ndnum.=00000000000000000000000000000010, Sum=z00000000000000000000000000000111
-#                   401stnum.=00000000000000000000000000001010, 2ndnum.=00000000000000000000000000000001, Sum=z00000000000000000000000000001011
-quit -sim
-# End time: 14:30:08 on Nov 15,2021, Elapsed time: 0:00:46
-# Errors: 0, Warnings: 4
 # Compile of testbench_rightshift.v was successful.
-vsim -gui work.Test_rightshift
-# vsim -gui work.Test_rightshift 
-# Start time: 14:35:34 on Nov 15,2021
-# Loading work.Test_rightshift
-# Loading work.shift_right_register
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'qout'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/parameter_right_shift.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_rightshift/test File: C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rightshift.v Line: 16
-run -all
-#                    01stnum.=00000000000000000000000000000010,  Sum=z00000000000000000000000000000000
-#                   101stnum.=00000000000000000000000000001010,  Sum=z00000000000000000000000000000000
-#                   201stnum.=00000000000000000000000000000110,  Sum=z00000000000000000000000000000000
-#                   301stnum.=00000000000000000000000000000101,  Sum=z00000000000000000000000000000000
-quit -sim
-# End time: 14:36:03 on Nov 15,2021, Elapsed time: 0:00:29
-# Errors: 0, Warnings: 4
-# Compile of parameter_right_shift.v was successful.
-vsim -gui work.Test_rightshift
-# vsim -gui work.Test_rightshift 
-# Start time: 14:36:30 on Nov 15,2021
-# Loading work.Test_rightshift
-# Loading work.shift_right_register
-run -all
-#                    01stnum.=00000000000000000000000000000010,  Sum=000000000000000000000000000000000
-#                   101stnum.=00000000000000000000000000001010,  Sum=000000000000000000000000000000000
-#                   201stnum.=00000000000000000000000000000110,  Sum=000000000000000000000000000000000
-#                   301stnum.=00000000000000000000000000000101,  Sum=000000000000000000000000000000000
-quit -sim
-# End time: 14:36:58 on Nov 15,2021, Elapsed time: 0:00:28
-# Errors: 0, Warnings: 2
-# Compile of testbench_rightshift.v was successful.
-vsim -gui work.Test_rightshift
-# vsim -gui work.Test_rightshift 
-# Start time: 14:37:29 on Nov 15,2021
-# Loading work.Test_rightshift
-# Loading work.shift_right_register
-run -all
-#                    01stnum.=00000000000000000000000000000010,  Sum=000000000000000000000000000000000
-#                   101stnum.=00000000000000000000000000010100,  Sum=000000000000000000000000000000001
-#                   201stnum.=00000000000000000000000000111100,  Sum=000000000000000000000000000000011
-#                   301stnum.=00000000000000000000000000110111,  Sum=000000000000000000000000000000011
-quit -sim
-# End time: 14:37:47 on Nov 15,2021, Elapsed time: 0:00:18
-# Errors: 0, Warnings: 2
-# Compile of parameter_left_shift.v was successful.
 # Compile of testbench_leftshift.v was successful.
-vsim -gui work.Test_leftshift
-# vsim -gui work.Test_leftshift 
-# Start time: 14:39:21 on Nov 15,2021
-# Loading work.Test_leftshift
-# Loading work.shift_left_register
-run -all
-#                    01stnum.=00000000000000000000000000000010,  Sum=000000000000000000000000000100000
-#                   101stnum.=00000000000000000000000000010100,  Sum=000000000000000000000000101000000
-#                   201stnum.=00000000000000000000000000111100,  Sum=000000000000000000000001111000000
-#                   301stnum.=00000000000000000000000000110111,  Sum=000000000000000000000001101110000
-quit -sim
-# End time: 14:39:48 on Nov 15,2021, Elapsed time: 0:00:27
-# Errors: 0, Warnings: 4
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of paremeter_rotate_right.v was successful.
 # Compile of testbench_rotateright.v was successful.
-vsim -gui work.Test_rotateright
-# vsim -gui work.Test_rotateright 
-# Start time: 14:42:02 on Nov 15,2021
-# Loading work.Test_rotateright
-# Loading work.rotate_right_register
-run -all
-#                    01stnum.=00000000000000000000000000000010,  Sum=000010000000000000000000000000000
-#                   101stnum.=00000000000000000000000000010100,  Sum=010100000000000000000000000000000
-#                   201stnum.=00000000000000000000000000111100,  Sum=011100000000000000000000000000001
-#                   301stnum.=00000000000000000000000000110111,  Sum=010111000000000000000000000000001
-quit -sim
-# End time: 14:42:39 on Nov 15,2021, Elapsed time: 0:00:37
-# Errors: 0, Warnings: 7
+# Compile of Testbench_ALU.v was successful.
+# 27 compiles, 0 failed with no errors.
 # Compile of paremeter_rotate_right.v was successful.
-# Compile of testbench_rotateright.v was successful.
-vsim -gui work.Test_rotateright
-# vsim -gui work.Test_rotateright 
-# Start time: 14:43:50 on Nov 15,2021
-# Loading work.Test_rotateright
-# Loading work.rotate_right_register
-run -all
-#                    01stnum.=00000000000000000000000000000010,  Sum=00010x000000000000000000000000000
-#                   101stnum.=00000000000000000000000000010100,  Sum=10100x000000000000000000000000000
-#                   201stnum.=00000000000000000000000000111100,  Sum=11100x000000000000000000000000001
-#                   301stnum.=00000000000000000000000000110111,  Sum=10111x000000000000000000000000001
-quit -sim
-# End time: 14:44:28 on Nov 15,2021, Elapsed time: 0:00:38
-# Errors: 0, Warnings: 4
-# Compile of paremeter_rotate_right.v was successful.
-# Compile of testbench_rotateright.v was successful.
-vsim -gui work.Test_rotateright
-# vsim -gui work.Test_rotateright 
-# Start time: 14:45:30 on Nov 15,2021
-# Loading work.Test_rotateright
-# Loading work.rotate_right_register
-# Load canceled
-run -all
-#                    01stnum.=00000000000000000000000000000010,  Sum=00010000000000000000000000000000
-#                   101stnum.=00000000000000000000000000010100,  Sum=10100000000000000000000000000000
-#                   201stnum.=00000000000000000000000000111100,  Sum=11100000000000000000000000000001
-#                   301stnum.=00000000000000000000000000110111,  Sum=10111000000000000000000000000001
-quit -sim
-# End time: 14:46:11 on Nov 15,2021, Elapsed time: 0:00:41
-# Errors: 0, Warnings: 3
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 2 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v failed with 4 errors.
-# Compile of Simple_ALU.v failed with 4 errors.
-# Compile of Simple_ALU.v failed with 4 errors.
-# Compile of Simple_ALU.v failed with 2 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of codition.v was successful.
-# Compile of Simple_ALU.v failed with 2 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 4 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 4 errors.
-# Compile of Simple_ALU.v failed with 4 errors.
-# Compile of Simple_ALU.v failed with 2 errors.
-# Compile of Simple_ALU.v failed with 4 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 3 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v failed with 2 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v failed with 6 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v failed with 1 errors.
-# Compile of Simple_ALU.v was successful.
-# Compile of Simple_ALU.v was successful.
-# Compile of Testbench_ALU.v failed with 4 errors.
-# Compile of Testbench_ALU.v failed with 3 errors.
-# Compile of Testbench_ALU.v failed with 3 errors.
-# Compile of Testbench_ALU.v failed with 2 errors.
-# Compile of Testbench_ALU.v failed with 1 errors.
 # Compile of Testbench_ALU.v was successful.
 vsim -gui work.Test_ALU
 # vsim -gui work.Test_ALU 
-# Start time: 19:02:11 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'conditions'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 19
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'shift_right_register'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 20
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'shift_left_register'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 21
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'rotate_right_register'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 22
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 25
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 26
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 28
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 30
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 34
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 36
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 38
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 41
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 43
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 46
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 49
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 51
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 54
-# Error loading design
-# End time: 19:02:12 on Nov 15,2021, Elapsed time: 0:00:01
-# Errors: 28, Warnings: 91
-# Compile of Testbench_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 19:39:44 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'conditions'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 19
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'shift_right_register'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 20
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'shift_left_register'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 21
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'rotate_right_register'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 22
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 25
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 26
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 28
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 30
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 34
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 36
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 38
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 41
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 43
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 46
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 49
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 51
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 54
-# Error loading design
-# End time: 19:39:45 on Nov 15,2021, Elapsed time: 0:00:01
-# Errors: 28, Warnings: 2
-# Compile of Simple_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 19:48:04 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'conditions'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 20
-# Loading work.shift_right_register
-# Loading work.shift_left_register
-# Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 36
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 38
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 43
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 46
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_adder'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_subtractor'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 51
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bit_multiplier'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_OR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_and'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 54
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'bitwise_XOR'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-# Error loading design
-# End time: 19:48:05 on Nov 15,2021, Elapsed time: 0:00:01
-# Errors: 18, Warnings: 2
-# Compile of Simple_ALU.v was successful.
-# Compile of Testbench_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 19:51:17 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# ** Error: (vsim-3037) Missing instance name in instantiation of 'conditions'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 20
-# Loading work.shift_right_register
-# Loading work.shift_left_register
-# Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# Error loading design
-# End time: 19:51:18 on Nov 15,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 3
-# Compile of Simple_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 19:51:52 on Nov 15,2021
+# Start time: 16:16:37 on Nov 16,2021
 # Loading work.Test_ALU
 # Loading work.simple_ALU
 # Loading work.conditions
@@ -563,53 +43,79 @@ vsim -gui work.Test_ALU
 # Loading work.bitwise_OR
 # Loading work.bitwise_and
 # Loading work.bitwise_XOR
-# ** Error (suppressible): (vsim-3006) Too many inherited module instance parameters.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU File: C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v Line: 23
-# Error loading design
-# End time: 19:51:53 on Nov 15,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 2
-# Compile of Simple_ALU.v was successful.
-# Compile of Testbench_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 19:53:33 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# Loading work.conditions
-# Loading work.shift_right_register
-# Loading work.shift_left_register
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 48
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 56
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 58
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
+#                   30S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   70S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   80S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  110S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
+#                  140S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  170S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111100000000000000000000000000011
+#                  200S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  210S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  220S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+quit -sim
+# End time: 16:18:35 on Nov 16,2021, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 12
+vsim -gui work.Test_rotateright
+# vsim -gui work.Test_rotateright 
+# Start time: 16:19:46 on Nov 16,2021
+# Loading work.Test_rotateright
 # Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# ** Error: (vsim-3043) Unresolved reference to 'OUT'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU File: C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v Line: 21
-# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'qout'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/parameter_right_shift.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/SRR File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 21
-# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'qout'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/parameter_left_shift.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/SLR File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 22
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-# Error loading design
-# End time: 19:53:33 on Nov 15,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 13
+run -all
+#                    01stnum.=00000000000000000000000000000010,  Sum=00100000000000000000000000000000
+#                   101stnum.=00000000000000000000000000010100,  Sum=01000000000000000000000000000001
+#                   201stnum.=00000000000000000000000000111100,  Sum=11000000000000000000000000000011
+#                   301stnum.=00000000000000000000000000110111,  Sum=01110000000000000000000000000011
+quit -sim
+# End time: 16:20:11 on Nov 16,2021, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 1
+# Compile of mov_register.v was successful.
+# Compile of Simple_ALU.v was successful.
+# Compile of IMM_Mov.v was successful.
+# Compile of IMM_Mov.v was successful.
+# Compile of Simple_ALU.v was successful.
+# Compile of CMP.v failed with 1 errors.
+# Compile of CMP.v failed with 1 errors.
+# Compile of CMP.v failed with 1 errors.
+# Compile of CMP.v failed with 1 errors.
+# Compile of CMP.v failed with 1 errors.
+# Compile of CMP.v was successful.
+# Compile of CMP.v was successful.
+# Compile of Simple_ALU.v failed with 4 errors.
+# Compile of Simple_ALU.v failed with 1 errors.
+# Compile of Simple_ALU.v failed with 1 errors.
+# Compile of Simple_ALU.v failed with 1 errors.
 # Compile of 32_bit_adder.v was successful.
 # Compile of 32_bit_subtractor.v was successful.
 # Compile of 32_bit_multiplier.v was successful.
@@ -637,116 +143,13 @@ vsim -gui work.Test_ALU
 # Compile of testbench_leftshift.v was successful.
 # Compile of testbench_rotateright.v was successful.
 # Compile of Testbench_ALU.v was successful.
-# 27 compiles, 0 failed with no errors.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 19:54:51 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# Loading work.conditions
-# Loading work.shift_right_register
-# Loading work.shift_left_register
-# Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# ** Error: (vsim-3043) Unresolved reference to 'OUT'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU File: C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v Line: 21
-# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'qout'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/parameter_right_shift.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/SRR File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 21
-# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'qout'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/parameter_left_shift.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/SLR File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 22
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-# Error loading design
-# End time: 19:54:52 on Nov 15,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 12
-# Compile of 32_bit_adder.v was successful.
-# Compile of 32_bit_subtractor.v was successful.
-# Compile of 32_bit_multiplier.v was successful.
-# Compile of 32_bitwise_OR.v was successful.
-# Compile of 32_bitwise_AND.v was successful.
-# Compile of 32_bitwise_XOR.v was successful.
-# Compile of parameter_right_shift.v was successful.
-# Compile of parameter_left_shift.v was successful.
-# Compile of paremeter_rotate_right.v was successful.
-# Compile of 8_bit_counter.v was successful.
-# Compile of 32_16x1_multi.v was successful.
-# Compile of 2^16x32_Ram.v was successful.
-# Compile of four_sixteen_decoder.v was successful.
-# Compile of codition.v was successful.
-# Compile of flag_set.v was successful.
-# Compile of mov_register.v was successful.
-# Compile of Simple_ALU.v was successful.
-# Compile of Testbench_adder.v was successful.
-# Compile of Testbench_subtractor.v was successful.
-# Compile of testbench_multiplier.v was successful.
-# Compile of testbench_OR.v was successful.
-# Compile of testbench_AND.v was successful.
-# Compile of testbench_XOR.v was successful.
-# Compile of testbench_rightshift.v was successful.
-# Compile of testbench_leftshift.v was successful.
-# Compile of testbench_rotateright.v was successful.
+# Compile of IMM_Mov.v was successful.
+# Compile of CMP.v was successful.
+# 29 compiles, 0 failed with no errors.
 # Compile of Testbench_ALU.v was successful.
-# 27 compiles, 0 failed with no errors.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 19:57:16 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# Loading work.conditions
-# Loading work.shift_right_register
-# Loading work.shift_left_register
-# Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# ** Error: (vsim-3043) Unresolved reference to 'OUT'.
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU File: C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v Line: 21
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-# Error loading design
-# End time: 19:57:16 on Nov 15,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 10
-# Compile of Testbench_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 19:59:05 on Nov 15,2021
-# Loading work.Test_ALU
+vsim -gui work.simple_ALU
+# vsim -gui work.simple_ALU 
+# Start time: 16:52:13 on Nov 16,2021
 # Loading work.simple_ALU
 # Loading work.conditions
 # Loading work.shift_right_register
@@ -759,53 +162,89 @@ vsim -gui work.Test_ALU
 # Loading work.bitwise_and
 # Loading work.bitwise_XOR
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 32
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 34
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 41
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 43
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 49
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 51
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 58
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 60
 run -all
-#                    0S.=0,R1.=         2, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         5
-#                   10S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=1000,OUT.=         5
-run -all
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-run -all
-#                    0S.=0,R1.=         2, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         5
-#                   10S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=1000,OUT.=         5
 quit -sim
-# End time: 20:01:23 on Nov 15,2021, Elapsed time: 0:02:18
+# End time: 16:52:35 on Nov 16,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 29
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 16:52:44 on Nov 16,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 58
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 60
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000011
+#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
+#                   30S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000001
+#                   70S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   80S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000011
+#                   90S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  110S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  140S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=1011,OUT.=111111111111111111111111111100011
+#                  150S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  170S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  200S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=1011,OUT.=111100000000000000000000000000011
+#                  210S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  220S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  240S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+quit -sim
+# End time: 16:53:41 on Nov 16,2021, Elapsed time: 0:00:57
 # Errors: 0, Warnings: 9
 # Compile of Testbench_ALU.v was successful.
 vsim -gui work.Test_ALU
 # vsim -gui work.Test_ALU 
-# Start time: 20:03:11 on Nov 15,2021
+# Start time: 16:55:56 on Nov 16,2021
 # Loading work.Test_ALU
 # Loading work.simple_ALU
 # Loading work.conditions
@@ -819,112 +258,56 @@ vsim -gui work.Test_ALU
 # Loading work.bitwise_and
 # Loading work.bitwise_XOR
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 32
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 34
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 41
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 43
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 49
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 51
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 58
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 60
 run -all
-#                    0S.=0,R1.=         2, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         5
-#                   10S.=1,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=1000,OUT.=         5
-#                   20S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=1000,OUT.=         5
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000011
+#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
+#                   30S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0000,Imm.=    8,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   70S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0111,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   80S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=1000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000001
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000011
+#                  110S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  140S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=1011,OUT.=111111111111111111111111111100011
+#                  170S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  200S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  210S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  220S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=1011,OUT.=111100000000000000000000000000011
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  240S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  250S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  260S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
 quit -sim
-# End time: 20:04:01 on Nov 15,2021, Elapsed time: 0:00:50
+# End time: 16:56:54 on Nov 16,2021, Elapsed time: 0:00:58
 # Errors: 0, Warnings: 10
-# Compile of Testbench_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 20:04:45 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# Loading work.conditions
-# Loading work.shift_right_register
-# Loading work.shift_left_register
-# Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-run -all
-#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         2
-#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         2
-#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         2
-quit -sim
-# End time: 20:05:37 on Nov 15,2021, Elapsed time: 0:00:52
-# Errors: 0, Warnings: 10
-# Load canceled
-# Compile of Testbench_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 20:06:37 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# Loading work.conditions
-# Loading work.shift_right_register
-# Loading work.shift_left_register
-# Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-run -all
-#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         Z
-#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         Z
-#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         Z
-quit -sim
-# End time: 20:16:51 on Nov 15,2021, Elapsed time: 0:10:14
-# Errors: 0, Warnings: 11
-# Compile of Simple_ALU.v failed with 1 errors.
 # Compile of Simple_ALU.v was successful.
 vsim -gui work.Test_ALU
 # vsim -gui work.Test_ALU 
-# Start time: 20:30:51 on Nov 15,2021
+# Start time: 16:58:28 on Nov 16,2021
 # Loading work.Test_ALU
 # Loading work.simple_ALU
 # Loading work.conditions
@@ -938,169 +321,572 @@ vsim -gui work.Test_ALU
 # Loading work.bitwise_and
 # Loading work.bitwise_XOR
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 32
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 34
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 41
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 43
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 49
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 51
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 58
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 60
 run -all
-#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         Z
-#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         3
-#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=         Z
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
+#                   30S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0000,Imm.=    8,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   70S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0111,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   80S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=1000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000001
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  110S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  140S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
+#                  170S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  200S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  210S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  220S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111100000000000000000000000000011
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  240S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  250S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  260S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
 quit -sim
-# End time: 20:31:34 on Nov 15,2021, Elapsed time: 0:00:43
+# End time: 16:59:13 on Nov 16,2021, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 10
+# Compile of Simple_ALU.v was successful.
+# Compile of Testbench_ALU.v was successful.
+# Load canceled
+# Compile of Simple_ALU.v failed with 1 errors.
+# Compile of Simple_ALU.v was successful.
+# Compile of Testbench_ALU.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 17:03:44 on Nov 16,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 61
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
+#                   30S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   70S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   80S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  110S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
+#                  140S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  170S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111100000000000000000000000000011
+#                  200S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  210S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  220S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+quit -sim
+# End time: 17:04:19 on Nov 16,2021, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 15
+# Compile of Testbench_ALU.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 17:05:17 on Nov 16,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 61
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
+#                   30S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0000,Imm.=    5,FLG.=10zz,OUT.=z00000000000000000000000000000101
+#                   70S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0111,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   80S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=1000,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  110S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  140S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
+#                  170S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  200S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  210S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  220S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111100000000000000000000000000011
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  240S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  250S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  260S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+quit -sim
+# End time: 17:05:56 on Nov 16,2021, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 11
+# Compile of Simple_ALU.v was successful.
+# Compile of Testbench_ALU.v was successful.
+# Compile of Testbench_ALU.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 19:06:48 on Nov 16,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 61
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
+#                   30S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0001,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0000,Imm.=    5,FLG.=10zz,OUT.=z00000000000000000000000000000101
+#                   70S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0111,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   80S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=1000,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  110S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  140S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
+#                  170S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  200S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  210S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  220S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111100000000000000000000000000011
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  240S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  250S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  260S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+quit -sim
+# End time: 19:07:34 on Nov 16,2021, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 13
+# Compile of Testbench_ALU.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 19:09:14 on Nov 16,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 61
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0001,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0001,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   30S.=1,R1.=         3, R2.=         0, SR_control=000,op_code.=0011,Cond.=0001,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0001,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0001,Imm.=    5,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   70S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0111,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   80S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=1000,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  110S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  140S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
+#                  170S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  200S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  210S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  220S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111100000000000000000000000000011
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  240S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  250S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  260S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+quit -sim
+# End time: 19:10:30 on Nov 16,2021, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 11
+# Compile of Testbench_ALU.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 19:11:03 on Nov 16,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 61
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0001,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   20S.=1,R1.=         3, R2.=         0, SR_control=000,op_code.=0010,Cond.=0001,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000011
+#                   30S.=1,R1.=         3, R2.=         0, SR_control=000,op_code.=0011,Cond.=0001,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0001,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0001,Imm.=    5,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   70S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0111,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   80S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=1000,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  110S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  140S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
+#                  170S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  200S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  210S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  220S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111100000000000000000000000000011
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  240S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  250S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  260S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+quit -sim
+# End time: 19:11:44 on Nov 16,2021, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 11
+# Compile of Simple_ALU.v was successful.
+# Compile of Testbench_ALU.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 19:12:50 on Nov 16,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 61
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0001,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                   20S.=1,R1.=         3, R2.=         0, SR_control=000,op_code.=0010,Cond.=0001,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 30 ps ###############
+#   Active process: /Test_ALU/test/#IMPLICIT-WIRE(out)#53 @ sub-iteration 0
+#     Source: C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v:53
+#   Active process: /Test_ALU/test/#ASSIGN#106 @ sub-iteration 0
+#     Source: C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v:53
+#   Active process: /Test_ALU/test/#IMPLICIT-WIRE(out)#53 @ sub-iteration 2
+#     Source: C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v:53
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 30 ps.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 30 ps.
+quit -sim
+# End time: 19:13:42 on Nov 16,2021, Elapsed time: 0:00:52
+# Errors: 2, Warnings: 12
+# Compile of Simple_ALU.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 19:14:08 on Nov 16,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 61
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0001,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   20S.=1,R1.=         3, R2.=         0, SR_control=000,op_code.=0010,Cond.=0001,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000011
+#                   30S.=1,R1.=         3, R2.=         0, SR_control=000,op_code.=0011,Cond.=0001,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0001,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   60S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0001,Imm.=    5,FLG.=10zz,OUT.=z00000000000000000000000000000001
+#                   70S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0111,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   80S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=1000,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  110S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  140S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
+#                  170S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  200S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  210S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  220S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111100000000000000000000000000011
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  240S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  250S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  260S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+quit -sim
+# End time: 19:14:45 on Nov 16,2021, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 11
+# Compile of Testbench_ALU.v was successful.
+# Compile of Testbench_ALU.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 19:18:12 on Nov 16,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 42
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 44
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 50
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 61
+run -all
+#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
+#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                   20S.=1,R1.=         3, R2.=         0, SR_control=000,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   30S.=1,R1.=         3, R2.=         0, SR_control=000,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000011
+#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0011,Imm.=    4,FLG.=00zz,OUT.=z00000000000000000000000000000100
+#                   60S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0110,Cond.=0011,Imm.=    5,FLG.=00zz,OUT.=z00000000000000000000000000000100
+#                   70S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0111,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
+#                   80S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=1000,Cond.=0000,Imm.=    0,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
+#                  110S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  120S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  130S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  140S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
+#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
+#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
+#                  170S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
+#                  180S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  190S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
+#                  200S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
+#                  210S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0000,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=000100000000000000000000000000011
+#                  220S.=0,R1.=         3, R2.=         2, SR_control=011,op_code.=0001,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=111100000000000000000000000000011
+#                  230S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0010,Cond.=0000,Imm.=    0,FLG.=0000,OUT.=001100000000000000000000000000000
+#                  240S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0011,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+#                  250S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0100,Cond.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
+#                  260S.=1,R1.=         3, R2.=         2, SR_control=011,op_code.=0101,Cond.=0000,Imm.=    0,FLG.=10zz,OUT.=z00100000000000000000000000000011
+quit -sim
+# End time: 19:20:18 on Nov 16,2021, Elapsed time: 0:02:06
 # Errors: 0, Warnings: 12
 # Compile of Testbench_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 20:33:18 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# Loading work.conditions
-# Loading work.shift_right_register
-# Loading work.shift_left_register
-# Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-run -all
-#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
-#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
-#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
-#                   30S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
-#                   40S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
-#                   50S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000001
-quit -sim
-# End time: 20:36:37 on Nov 15,2021, Elapsed time: 0:03:19
-# Errors: 0, Warnings: 10
-# Compile of Testbench_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 20:38:07 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# Loading work.conditions
-# Loading work.shift_right_register
-# Loading work.shift_left_register
-# Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-run -all
-#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
-#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
-#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
-#                   30S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
-#                   40S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
-#                   50S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000001
-#                   60S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
-#                   70S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
-#                   80S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
-#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
-#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
-#                  110S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
-quit -sim
-# End time: 20:39:24 on Nov 15,2021, Elapsed time: 0:01:17
-# Errors: 0, Warnings: 10
-# Compile of Testbench_ALU.v was successful.
-vsim -gui work.Test_ALU
-# vsim -gui work.Test_ALU 
-# Start time: 21:45:12 on Nov 15,2021
-# Loading work.Test_ALU
-# Loading work.simple_ALU
-# Loading work.conditions
-# Loading work.shift_right_register
-# Loading work.shift_left_register
-# Loading work.rotate_right_register
-# Loading work.bit_adder
-# Loading work.bit_subtractor
-# Loading work.bit_multiplier
-# Loading work.bitwise_OR
-# Loading work.bitwise_and
-# Loading work.bitwise_XOR
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 29
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 31
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 37
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 39
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 45
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 47
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 53
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v Line: 55
-run -all
-#                    0S.=0,R1.=         5, R2.=         3, SR_control=000,op_code.=0000,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000001000
-#                   10S.=0,R1.=         5, R2.=         2, SR_control=000,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
-#                   20S.=0,R1.=         3, R2.=         2, SR_control=000,op_code.=0010,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000110
-#                   30S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000011
-#                   40S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0100,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000010
-#                   50S.=1,R1.=         3, R2.=         2, SR_control=000,op_code.=0101,Cond.=0000,flags.=0000,Imm.=    0,FLG.=10zz,OUT.=z00000000000000000000000000000001
-#                   60S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0000,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
-#                   70S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000011
-#                   80S.=1,R1.=         3, R2.=         2, SR_control=001,op_code.=0010,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0100,OUT.=000000000000000000000000000000000
-#                   90S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
-#                  100S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0100,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
-#                  110S.=0,R1.=         3, R2.=         2, SR_control=001,op_code.=0101,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000000011
-#                  120S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0000,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000100011
-#                  130S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0001,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=111111111111111111111111111100011
-#                  140S.=1,R1.=         3, R2.=         2, SR_control=010,op_code.=0010,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000001100000
-#                  150S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0011,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
-#                  160S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0100,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=000000000000000000000000000000000
-#                  170S.=0,R1.=         3, R2.=         2, SR_control=010,op_code.=0101,Cond.=0000,flags.=0000,Imm.=    0,FLG.=0000,OUT.=z00000000000000000000000000100011
-quit -sim
-# End time: 21:47:26 on Nov 15,2021, Elapsed time: 0:02:14
-# Errors: 0, Warnings: 10
