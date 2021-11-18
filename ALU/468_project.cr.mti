@@ -1,4 +1,4 @@
-C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v {1 {vlog -work work -stats=none {C:\Users\keati\Documents\FourthYear\ENGR468\IMM_Mov.v}
+C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/IMM_Mov.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module move_IMM
 
@@ -12,7 +12,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Test_rotateright
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/flag_set.v {1 {vlog -work work -stats=none {C:\Users\keati\Documents\FourthYear\ENGR468\flag_set.v}
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/flag_set.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/flag_set.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module flag_set
 
@@ -61,7 +61,7 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	four_sixteen_decoder
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v {1 {vlog -work work -stats=none {C:\Users\keati\Documents\FourthYear\ENGR468\Testbench_ALU.v}
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Test_ALU
 
@@ -82,19 +82,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Test_AND
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v {1 {vlog -work work -stats=none {C:\Users\keati\Documents\FourthYear\ENGR468\Simple_ALU.v}
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/32_bit_subtractor.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/32_bit_subtractor.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module simple_ALU
+-- Compiling module bit_subtractor
 
 Top level modules:
-	simple_ALU
-
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/parameter_right_shift.v {1 {vlog -work work -stats=none {C:\Users\keati\Documents\FourthYear\ENGR468\parameter_right_shift.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module shift_right_register
-
-Top level modules:
-	shift_right_register
+	bit_subtractor
 
 } {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_OR.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -103,26 +96,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	bitwise_OR
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/32_bit_subtractor.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/32_bit_subtractor.v
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/parameter_right_shift.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/parameter_right_shift.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module bit_subtractor
+-- Compiling module shift_right_register
 
 Top level modules:
-	bit_subtractor
+	shift_right_register
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/mov_register.v {1 {vlog -work work -stats=none {C:\Users\keati\Documents\FourthYear\ENGR468\mov_register.v}
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module move_register
+-- Compiling module simple_ALU
 
 Top level modules:
-	move_register
-
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/testbench_multiplier.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/testbench_multiplier.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Test_multip
-
-Top level modules:
-	Test_multip
+	simple_ALU
 
 } {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/32_16x1_multi.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/32_16x1_multi.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -131,6 +117,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	alu_mux
 
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/testbench_multiplier.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/testbench_multiplier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_multip
+
+Top level modules:
+	Test_multip
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/mov_register.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/mov_register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module move_register
+
+Top level modules:
+	move_register
+
 } {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_adder.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/testbench_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Test_Addder
@@ -138,19 +138,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Test_Addder
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/CMP.v {1 {vlog -work work -stats=none {C:\Users\keati\Documents\FourthYear\ENGR468\CMP.v}
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/parameter_left_shift.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/parameter_left_shift.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module compare
+-- Compiling module shift_left_register
 
 Top level modules:
-	compare
-
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/paremeter_rotate_right.v {1 {vlog -work work -stats=none {C:\Users\keati\Documents\FourthYear\ENGR468\paremeter_rotate_right.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module rotate_right_register
-
-Top level modules:
-	rotate_right_register
+	shift_left_register
 
 } {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_subtractor.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_subtractor.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -159,12 +152,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Test_sub
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/parameter_left_shift.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/parameter_left_shift.v
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/paremeter_rotate_right.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/paremeter_rotate_right.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module shift_left_register
+-- Compiling module rotate_right_register
 
 Top level modules:
-	shift_left_register
+	rotate_right_register
+
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/CMP.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/CMP.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module compare
+
+Top level modules:
+	compare
 
 } {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/codition.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/codition.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -180,12 +180,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	bit_adder
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rightshift.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rightshift.v
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Test_rightshift
+-- Compiling module bitwise_XOR
 
 Top level modules:
-	Test_rightshift
+	bitwise_XOR
 
 } {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/2^16x32_Ram.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/2^16x32_Ram.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -194,11 +194,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	big_ram
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/32_bitwise_XOR.v
+} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rightshift.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/testbench_rightshift.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module bitwise_XOR
+-- Compiling module Test_rightshift
 
 Top level modules:
-	bitwise_XOR
+	Test_rightshift
 
 } {} {}}
