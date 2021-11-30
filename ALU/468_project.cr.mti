@@ -61,13 +61,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	four_sixteen_decoder
 
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/Testbench_ALU.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Test_ALU
-
-Top level modules:
-	Test_ALU
-
 } {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/32_bit_multiplier.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/32_bit_multiplier.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module bit_multiplier
@@ -102,13 +95,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	shift_right_register
-
-} {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/Simple_ALU.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module simple_ALU
-
-Top level modules:
-	simple_ALU
 
 } {} {}} C:/Users/keati/Documents/FourthYear/ENGR468/32_16x1_multi.v {1 {vlog -work work -stats=none C:/Users/keati/Documents/FourthYear/ENGR468/32_16x1_multi.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

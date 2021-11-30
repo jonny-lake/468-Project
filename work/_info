@@ -1,0 +1,600 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/keati/Documents/468-Project/ALU
+vbit_adder
+Z0 !s110 1638306677
+!i10b 1
+!s100 FbUVN1A`i0FjN_kBHEcUj2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8BgJc7;c>Pm:XTRK0=S2W1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/keati/Documents/468-Project
+Z4 w1638234638
+8C:/Users/keati/Documents/468-Project/ALU/32_bit_adder.v
+FC:/Users/keati/Documents/468-Project/ALU/32_bit_adder.v
+!i122 317
+Z5 L0 1 6
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1638306677.000000
+!s107 C:/Users/keati/Documents/468-Project/ALU/32_bit_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bit_adder.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vbit_multiplier
+R0
+!i10b 1
+!s100 fJcaQzg7?=Jbi<nCdLmc22
+R1
+I;gBhP1;=Eb3Ja=NjGG`>=3
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/32_bit_multiplier.v
+FC:/Users/keati/Documents/468-Project/ALU/32_bit_multiplier.v
+!i122 318
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/keati/Documents/468-Project/ALU/32_bit_multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bit_multiplier.v|
+!i113 1
+R8
+R9
+vbit_subtractor
+Z10 !s110 1638306678
+!i10b 1
+!s100 M3g_Ge^4FR@j4HK`ie^^R3
+R1
+I5e`[cMm]_9gXJY6Zo?7dT3
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/32_bit_subtractor.v
+FC:/Users/keati/Documents/468-Project/ALU/32_bit_subtractor.v
+!i122 319
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/keati/Documents/468-Project/ALU/32_bit_subtractor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bit_subtractor.v|
+!i113 1
+R8
+R9
+vbitwise_and
+R10
+!i10b 1
+!s100 ^[@6SD7Of3Mgoake9fF142
+R1
+ICPhalLAlQLhKTN?;Xd0DU1
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/32_bitwise_AND.v
+FC:/Users/keati/Documents/468-Project/ALU/32_bitwise_AND.v
+!i122 320
+R5
+R6
+r1
+!s85 0
+31
+Z11 !s108 1638306678.000000
+!s107 C:/Users/keati/Documents/468-Project/ALU/32_bitwise_AND.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bitwise_AND.v|
+!i113 1
+R8
+R9
+vbitwise_OR
+R10
+!i10b 1
+!s100 9RiAie@DjbS9^eebLkzO]0
+R1
+IJNggH2];=^]@5BA<AIaAV0
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v
+FC:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v
+!i122 321
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v|
+!i113 1
+R8
+R9
+nbitwise_@o@r
+vbitwise_XOR
+R10
+!i10b 1
+!s100 cA3c5P88Ro2mK1f1cDTZ`0
+R1
+IdI?0VHBh7:ijRbJ[D90?N1
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v
+FC:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v
+!i122 322
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v|
+!i113 1
+R8
+R9
+nbitwise_@x@o@r
+vcompare
+Z12 !s110 1638306679
+!i10b 1
+!s100 fShhj6dM>n^aDZcH?>OhJ3
+R1
+IT4:5iAE@LZG^K:`V^;ZBl3
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/CMP.v
+FC:/Users/keati/Documents/468-Project/ALU/CMP.v
+!i122 323
+L0 1 8
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/keati/Documents/468-Project/ALU/CMP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/CMP.v|
+!i113 1
+R8
+R9
+vconditions
+R12
+!i10b 1
+!s100 I>Q4jio^jNQ0EaQ>g5SXA1
+R1
+IB>Z3_B;YP`[D;`Bi7E2aE0
+R2
+R3
+w1638248419
+8C:/Users/keati/Documents/468-Project/ALU/codition.v
+FC:/Users/keati/Documents/468-Project/ALU/codition.v
+!i122 324
+L0 1 20
+R6
+r1
+!s85 0
+31
+Z13 !s108 1638306679.000000
+!s107 C:/Users/keati/Documents/468-Project/ALU/codition.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/codition.v|
+!i113 1
+R8
+R9
+vflag_set
+R12
+!i10b 1
+!s100 C`8NW`SbNi?edj_c^b<7f2
+R1
+I0P2g62@?MWSK:WWYzk>o91
+R2
+R3
+w1638300786
+8C:\Users\keati\Documents\468-Project\ALU\flag_set.v
+FC:\Users\keati\Documents\468-Project\ALU\flag_set.v
+!i122 325
+L0 1 22
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:\Users\keati\Documents\468-Project\ALU\flag_set.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\keati\Documents\468-Project\ALU\flag_set.v|
+!i113 1
+R8
+R9
+vmove_IMM
+R12
+!i10b 1
+!s100 2_46o;l?j@Xze6^<oH8@^1
+R1
+IE<_e^;K>Wdne]3JZzWcg62
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v
+FC:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v
+!i122 326
+Z14 L0 1 7
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v|
+!i113 1
+R8
+R9
+nmove_@i@m@m
+vmove_register
+Z15 !s110 1638306680
+!i10b 1
+!s100 c=<jGV_lCf<]:jOcnnEno2
+R1
+IhiiVN:n5gjKH?C5VN;4AB2
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/mov_register.v
+FC:/Users/keati/Documents/468-Project/ALU/mov_register.v
+!i122 327
+R14
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/keati/Documents/468-Project/ALU/mov_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/mov_register.v|
+!i113 1
+R8
+R9
+vrotate_right_register
+R15
+!i10b 1
+!s100 ndViUNmcUMRQfATU[M?Cc0
+R1
+ICg7Oe>i4ZczV290I]WVCW1
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/paremeter_rotate_right.v
+FC:/Users/keati/Documents/468-Project/ALU/paremeter_rotate_right.v
+!i122 330
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1638306680.000000
+!s107 C:/Users/keati/Documents/468-Project/ALU/paremeter_rotate_right.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/paremeter_rotate_right.v|
+!i113 1
+R8
+R9
+vshift_left_register
+R15
+!i10b 1
+!s100 9kMiEMXl3F7QRK]48aJKQ2
+R1
+I4bkQo_4CNfFR;fQYhZVPb1
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/parameter_left_shift.v
+FC:/Users/keati/Documents/468-Project/ALU/parameter_left_shift.v
+!i122 328
+R5
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/keati/Documents/468-Project/ALU/parameter_left_shift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/parameter_left_shift.v|
+!i113 1
+R8
+R9
+vshift_right_register
+R15
+!i10b 1
+!s100 j<[z]zao6b8M?oNYXC_eS3
+R1
+I1gXVj3gldO_6zJRi=RcaU0
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/parameter_right_shift.v
+FC:/Users/keati/Documents/468-Project/ALU/parameter_right_shift.v
+!i122 329
+R5
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/keati/Documents/468-Project/ALU/parameter_right_shift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/parameter_right_shift.v|
+!i113 1
+R8
+R9
+vsimple_ALU
+Z17 !s110 1638306681
+!i10b 1
+!s100 kG_EO:NBb=:>V8=ZJARgG1
+R1
+InaoFLLRP>Cj6<l>:ZE3Xz0
+R2
+R3
+w1638305374
+8C:\Users\keati\Documents\468-Project\ALU\Simple_ALU.v
+FC:\Users\keati\Documents\468-Project\ALU\Simple_ALU.v
+!i122 331
+L0 1 101
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:\Users\keati\Documents\468-Project\ALU\Simple_ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\keati\Documents\468-Project\ALU\Simple_ALU.v|
+!i113 1
+R8
+R9
+nsimple_@a@l@u
+vTest_Addder
+R17
+!i10b 1
+!s100 7fzX?3ckL4Tz`=E^BkN^P0
+R1
+IkZ^B;SnGYdbTGja2zB5fb1
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/testbench_adder.v
+FC:/Users/keati/Documents/468-Project/ALU/testbench_adder.v
+!i122 332
+L0 1 18
+R6
+r1
+!s85 0
+31
+Z18 !s108 1638306681.000000
+!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_adder.v|
+!i113 1
+R8
+R9
+n@test_@addder
+vTest_ALU
+R17
+!i10b 1
+!s100 :B;jEiNJnjnY[DKliFCo;0
+R1
+Ickgc4^GniIG@0hmm2CV^K0
+R2
+R3
+w1638300582
+8C:\Users\keati\Documents\468-Project\ALU\Testbench_ALU.v
+FC:\Users\keati\Documents\468-Project\ALU\Testbench_ALU.v
+!i122 333
+L0 1 26
+R6
+r1
+!s85 0
+31
+R18
+!s107 C:\Users\keati\Documents\468-Project\ALU\Testbench_ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\keati\Documents\468-Project\ALU\Testbench_ALU.v|
+!i113 1
+R8
+R9
+n@test_@a@l@u
+vTest_AND
+R17
+!i10b 1
+!s100 NC=OR8A2<lGjmQ>R7=2IM1
+R1
+IiZTXBD;[j@f4k09I@ORcN3
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/testbench_AND.v
+FC:/Users/keati/Documents/468-Project/ALU/testbench_AND.v
+!i122 334
+Z19 L0 1 17
+R6
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_AND.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_AND.v|
+!i113 1
+R8
+R9
+n@test_@a@n@d
+vTest_bitwiseOR
+Z20 !s110 1638306682
+!i10b 1
+!s100 >kjzIh`6L:zT<C4U>Loek1
+R1
+I`Z53lC7`gi6;jncTmR;ii1
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/testbench_OR.v
+FC:/Users/keati/Documents/468-Project/ALU/testbench_OR.v
+!i122 337
+R19
+R6
+r1
+!s85 0
+31
+Z21 !s108 1638306682.000000
+!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_OR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_OR.v|
+!i113 1
+R8
+R9
+n@test_bitwise@o@r
+vTest_leftshift
+R17
+!i10b 1
+!s100 ZjOm14R^4hl[5_TiGV7A82
+R1
+IQ3ZoeNdZe0LON=Z>zc9WZ2
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/testbench_leftshift.v
+FC:/Users/keati/Documents/468-Project/ALU/testbench_leftshift.v
+!i122 335
+Z22 L0 1 16
+R6
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_leftshift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_leftshift.v|
+!i113 1
+R8
+R9
+n@test_leftshift
+vTest_multip
+R20
+!i10b 1
+!s100 c5JnnS[G;TAh4lAh?>oF@0
+R1
+Ii=DZn8ODDC^8T^NLh>LA[0
+R2
+R3
+Z23 w1638234639
+8C:/Users/keati/Documents/468-Project/ALU/testbench_multiplier.v
+FC:/Users/keati/Documents/468-Project/ALU/testbench_multiplier.v
+!i122 336
+R19
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_multiplier.v|
+!i113 1
+R8
+R9
+n@test_multip
+vTest_rightshift
+R20
+!i10b 1
+!s100 Z0GgL8K^8K8=f53DCNK5k2
+R1
+IX6nB?C<FaX6T0L>5cDJLM1
+R2
+R3
+R23
+8C:/Users/keati/Documents/468-Project/ALU/testbench_rightshift.v
+FC:/Users/keati/Documents/468-Project/ALU/testbench_rightshift.v
+!i122 338
+L0 2 16
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_rightshift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_rightshift.v|
+!i113 1
+R8
+R9
+n@test_rightshift
+vTest_rotateright
+R20
+!i10b 1
+!s100 5Gz1`m^3mRmB=9o8HGTS^2
+R1
+IS7P3hK5[aCgB6NeNb[oMf0
+R2
+R3
+R23
+8C:/Users/keati/Documents/468-Project/ALU/testbench_rotateright.v
+FC:/Users/keati/Documents/468-Project/ALU/testbench_rotateright.v
+!i122 339
+R22
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_rotateright.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_rotateright.v|
+!i113 1
+R8
+R9
+n@test_rotateright
+vTest_sub
+Z24 !s110 1638306683
+!i10b 1
+!s100 <^b@NY@8k5EdgJeS;?V:j0
+R1
+IYRQ?XUW2okcI5Vb@@G4dj3
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/Testbench_subtractor.v
+FC:/Users/keati/Documents/468-Project/ALU/Testbench_subtractor.v
+!i122 340
+R19
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/keati/Documents/468-Project/ALU/Testbench_subtractor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/Testbench_subtractor.v|
+!i113 1
+R8
+R9
+n@test_sub
+vTest_XOR
+R24
+!i10b 1
+!s100 TN1H942?Fn:lkmiSGBe^M0
+R1
+IC?PIDg>JDcD5d`HgeS7]=2
+R2
+R3
+R4
+8C:/Users/keati/Documents/468-Project/ALU/testbench_XOR.v
+FC:/Users/keati/Documents/468-Project/ALU/testbench_XOR.v
+!i122 341
+R19
+R6
+r1
+!s85 0
+31
+!s108 1638306683.000000
+!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_XOR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_XOR.v|
+!i113 1
+R8
+R9
+n@test_@x@o@r

@@ -8,7 +8,7 @@ always @ *
 	case(cond)
 	default: out = 1'b1;
 	4'b0001: out = (flags[2]== 1)? 1'b1:1'b0;
-	4'b0010: out = (flags[2] == 1 && flags[3]==flags[0])?1'b1:1'b0;
+	4'b0010: out = (flags[2] == 0 && flags[3]==flags[0])? 1'b1:1'b0;
 	4'b0011: out = (flags[3] != flags[0])?1'b1:1'b0;
 	4'b0100: out = (flags[3] == flags[0])?1'b1:1'b0;
 	4'b0101: out = (flags[3] == 1 || flags[3]!= flags[0])?1'b1:1'b0;

@@ -1,0 +1,659 @@
+# Compile of 32_bit_adder.v was successful.
+# Compile of 32_bit_multiplier.v was successful.
+# Compile of 32_bit_subtractor.v was successful.
+# Compile of 32_bitwise_AND.v was successful.
+# Compile of 32_bitwise_OR.v was successful.
+# Compile of 32_bitwise_XOR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of codition.v was successful.
+# Compile of flag_set.v was successful.
+# Compile of IMM_Mov.v was successful.
+# Compile of mov_register.v was successful.
+# Compile of parameter_left_shift.v was successful.
+# Compile of parameter_right_shift.v was successful.
+# Compile of paremeter_rotate_right.v was successful.
+# Compile of Simple_ALU.v was successful.
+# Compile of testbench_adder.v was successful.
+# Compile of Testbench_ALU.v was successful.
+# Compile of testbench_AND.v was successful.
+# Compile of testbench_leftshift.v was successful.
+# Compile of testbench_multiplier.v was successful.
+# Compile of testbench_OR.v was successful.
+# Compile of testbench_rightshift.v was successful.
+# Compile of testbench_rotateright.v was successful.
+# Compile of Testbench_subtractor.v was successful.
+# Compile of testbench_XOR.v was successful.
+# 25 compiles, 0 failed with no errors.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 11:25:17 on Nov 30,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+run -all
+#                    0R1.=         0, R2.=         0,instr.=00000110000110000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   10R1.=         0, R2.=         0,instr.=00000110010000000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   20R1.=         4, R2.=         4,instr.=00001000000000011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   30R1.=         4, R2.=         4,instr.=00100000000010011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   40R1.=         4, R2.=         4,instr.=00010010000100011100000001000001,FLG.=0100,OUT.=000000000000000000000000000001000
+#                   50R1.=         5, R2.=         4,instr.=00000001101111000001000000000000,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   60R1.=         1, R2.=         1,instr.=00001111000000000000000000000000,FLG.=1000,OUT.=000000000000000000000000000000000
+quit -sim
+# End time: 11:26:04 on Nov 30,2021, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 13
+# Compile of flag_set.v was successful.
+# Compile of 32_bit_adder.v was successful.
+# Compile of 32_bit_multiplier.v was successful.
+# Compile of 32_bit_subtractor.v was successful.
+# Compile of 32_bitwise_AND.v was successful.
+# Compile of 32_bitwise_OR.v was successful.
+# Compile of 32_bitwise_XOR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of codition.v was successful.
+# Compile of flag_set.v was successful.
+# Compile of IMM_Mov.v was successful.
+# Compile of mov_register.v was successful.
+# Compile of parameter_left_shift.v was successful.
+# Compile of parameter_right_shift.v was successful.
+# Compile of paremeter_rotate_right.v was successful.
+# Compile of Simple_ALU.v was successful.
+# Compile of testbench_adder.v was successful.
+# Compile of Testbench_ALU.v was successful.
+# Compile of testbench_AND.v was successful.
+# Compile of testbench_leftshift.v was successful.
+# Compile of testbench_multiplier.v was successful.
+# Compile of testbench_OR.v was successful.
+# Compile of testbench_rightshift.v was successful.
+# Compile of testbench_rotateright.v was successful.
+# Compile of Testbench_subtractor.v was successful.
+# Compile of testbench_XOR.v was successful.
+# 25 compiles, 0 failed with no errors.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 11:26:45 on Nov 30,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+run -all
+#                    0R1.=         0, R2.=         0,instr.=00000110000110000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   10R1.=         0, R2.=         0,instr.=00000110010000000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   20R1.=         4, R2.=         4,instr.=00001000000000011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   30R1.=         4, R2.=         4,instr.=00100000000010011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   40R1.=         4, R2.=         4,instr.=00010010000100011100000001000001,FLG.=0100,OUT.=000000000000000000000000000001000
+#                   50R1.=         5, R2.=         4,instr.=00000001101111000001000000000000,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   60R1.=         1, R2.=         1,instr.=00001111000000000000000000000000,FLG.=1000,OUT.=000000000000000000000000000000000
+quit -sim
+# End time: 11:26:57 on Nov 30,2021, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 14
+# Compile of flag_set.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 11:27:28 on Nov 30,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+run -all
+#                    0R1.=         0, R2.=         0,instr.=00000110000110000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   10R1.=         0, R2.=         0,instr.=00000110010000000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   20R1.=         4, R2.=         4,instr.=00001000000000011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   30R1.=         4, R2.=         4,instr.=00100000000010011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   40R1.=         4, R2.=         4,instr.=00010010000100011100000001000001,FLG.=0100,OUT.=000000000000000000000000000001000
+#                   50R1.=         5, R2.=         4,instr.=00000001101111000001000000000000,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   60R1.=         1, R2.=         1,instr.=00001111000000000000000000000000,FLG.=1000,OUT.=000000000000000000000000000000000
+quit -sim
+# End time: 11:27:55 on Nov 30,2021, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 13
+# Compile of flag_set.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 11:29:13 on Nov 30,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+run -all
+#                    0R1.=         0, R2.=         0,instr.=00000110000110000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   10R1.=         0, R2.=         0,instr.=00000110010000000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   20R1.=         4, R2.=         4,instr.=00001000000000011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   30R1.=         4, R2.=         4,instr.=00100000000010011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   40R1.=         4, R2.=         4,instr.=00010010000100011100000001000001,FLG.=0100,OUT.=000000000000000000000000000001000
+#                   50R1.=         5, R2.=         4,instr.=00000001101111000001000000000000,FLG.=1000,OUT.=000000000000000000000000000000001
+#                   60R1.=         1, R2.=         1,instr.=00001111000000000000000000000000,FLG.=1000,OUT.=000000000000000000000000000000000
+quit -sim
+# End time: 11:29:29 on Nov 30,2021, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 13
+# Compile of Testbench_ALU.v was successful.
+# Compile of 32_bit_adder.v was successful.
+# Compile of 32_bit_multiplier.v was successful.
+# Compile of 32_bit_subtractor.v was successful.
+# Compile of 32_bitwise_AND.v was successful.
+# Compile of 32_bitwise_OR.v was successful.
+# Compile of 32_bitwise_XOR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of codition.v was successful.
+# Compile of flag_set.v was successful.
+# Compile of IMM_Mov.v was successful.
+# Compile of mov_register.v was successful.
+# Compile of parameter_left_shift.v was successful.
+# Compile of parameter_right_shift.v was successful.
+# Compile of paremeter_rotate_right.v was successful.
+# Compile of Simple_ALU.v was successful.
+# Compile of testbench_adder.v was successful.
+# Compile of Testbench_ALU.v was successful.
+# Compile of testbench_AND.v was successful.
+# Compile of testbench_leftshift.v was successful.
+# Compile of testbench_multiplier.v was successful.
+# Compile of testbench_OR.v was successful.
+# Compile of testbench_rightshift.v was successful.
+# Compile of testbench_rotateright.v was successful.
+# Compile of Testbench_subtractor.v was successful.
+# Compile of testbench_XOR.v was successful.
+# 25 compiles, 0 failed with no errors.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 11:30:50 on Nov 30,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+run -all
+#                    0R1.=         0, R2.=         0,instr.=00000110000110000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   10R1.=         0, R2.=         0,instr.=00000110010000000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   20R1.=         4, R2.=         4,instr.=00001000000000011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   30R1.=         4, R2.=         4,instr.=00100000000010011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   40R1.=         4, R2.=         4,instr.=00010010000100011100000001000001,FLG.=0100,OUT.=000000000000000000000000000001000
+#                   50R1.=         4, R2.=         8,instr.=00000001101111000001000000000000,FLG.=0011,OUT.=111111111111111111111111111111100
+#                   60R1.=         1, R2.=         1,instr.=00001111000000000000000000000000,FLG.=0011,OUT.=000000000000000000000000000000000
+quit -sim
+# End time: 11:31:08 on Nov 30,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 14
+# Compile of 32_bit_adder.v was successful.
+# Compile of 32_bit_multiplier.v was successful.
+# Compile of 32_bit_subtractor.v was successful.
+# Compile of 32_bitwise_AND.v was successful.
+# Compile of 32_bitwise_OR.v was successful.
+# Compile of 32_bitwise_XOR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of codition.v was successful.
+# Compile of flag_set.v was successful.
+# Compile of IMM_Mov.v was successful.
+# Compile of mov_register.v was successful.
+# Compile of parameter_left_shift.v was successful.
+# Compile of parameter_right_shift.v was successful.
+# Compile of paremeter_rotate_right.v was successful.
+# Compile of Simple_ALU.v was successful.
+# Compile of testbench_adder.v was successful.
+# Compile of Testbench_ALU.v was successful.
+# Compile of testbench_AND.v was successful.
+# Compile of testbench_leftshift.v was successful.
+# Compile of testbench_multiplier.v was successful.
+# Compile of testbench_OR.v was successful.
+# Compile of testbench_rightshift.v was successful.
+# Compile of testbench_rotateright.v was successful.
+# Compile of Testbench_subtractor.v was successful.
+# Compile of testbench_XOR.v was successful.
+# 25 compiles, 0 failed with no errors.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 11:31:52 on Nov 30,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+run -all
+#                    0R1.=         0, R2.=         0,instr.=00000110000110000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   10R1.=         0, R2.=         0,instr.=00000110010000000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   20R1.=         4, R2.=         4,instr.=00001000000000011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   30R1.=         4, R2.=         4,instr.=00100000000010011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   40R1.=         4, R2.=         4,instr.=00010010000100011100000001000001,FLG.=0100,OUT.=000000000000000000000000000001000
+#                   50R1.=         4, R2.=         8,instr.=00000001101111000001000000000000,FLG.=0011,OUT.=111111111111111111111111111111100
+#                   60R1.=         1, R2.=         1,instr.=00001111000000000000000000000000,FLG.=0011,OUT.=000000000000000000000000000000000
+quit -sim
+# End time: 11:32:58 on Nov 30,2021, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 13
+# Compile of 32_bit_adder.v was successful.
+# Compile of 32_bit_multiplier.v was successful.
+# Compile of 32_bit_subtractor.v was successful.
+# Compile of 32_bitwise_AND.v was successful.
+# Compile of 32_bitwise_OR.v was successful.
+# Compile of 32_bitwise_XOR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of codition.v was successful.
+# Compile of flag_set.v was successful.
+# Compile of IMM_Mov.v was successful.
+# Compile of mov_register.v was successful.
+# Compile of parameter_left_shift.v was successful.
+# Compile of parameter_right_shift.v was successful.
+# Compile of paremeter_rotate_right.v was successful.
+# Compile of Simple_ALU.v was successful.
+# Compile of testbench_adder.v was successful.
+# Compile of Testbench_ALU.v was successful.
+# Compile of testbench_AND.v was successful.
+# Compile of testbench_leftshift.v was successful.
+# Compile of testbench_multiplier.v was successful.
+# Compile of testbench_OR.v was successful.
+# Compile of testbench_rightshift.v was successful.
+# Compile of testbench_rotateright.v was successful.
+# Compile of Testbench_subtractor.v was successful.
+# Compile of testbench_XOR.v was successful.
+# 25 compiles, 0 failed with no errors.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 11:33:26 on Nov 30,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+run -all
+#                    0R1.=         0, R2.=         0,instr.=00000110000110000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   10R1.=         0, R2.=         0,instr.=00000110010000000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   20R1.=         4, R2.=         4,instr.=00001000000000011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   30R1.=         4, R2.=         4,instr.=00100000000010011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   40R1.=         4, R2.=         4,instr.=00010010000100011100000001000001,FLG.=0100,OUT.=000000000000000000000000000001000
+#                   50R1.=         4, R2.=         8,instr.=00000001101111000001000000000000,FLG.=1000,OUT.=111111111111111111111111111111100
+#                   60R1.=         1, R2.=         1,instr.=00001111000000000000000000000000,FLG.=1000,OUT.=000000000000000000000000000000000
+quit -sim
+# End time: 11:38:12 on Nov 30,2021, Elapsed time: 0:04:46
+# Errors: 0, Warnings: 13
+# Compile of Simple_ALU.v was successful.
+vsim -gui work.simple_ALU
+# vsim -gui work.simple_ALU 
+# Start time: 12:48:23 on Nov 30,2021
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /simple_ALU/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+quit -sim
+# End time: 12:48:29 on Nov 30,2021, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 14
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 12:48:36 on Nov 30,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test File: C:/Users/keati/Documents/468-Project/ALU/Testbench_ALU.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+run -all
+#                    0R1.=         0, R2.=         0,instr.=00000110000110000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   10R1.=         0, R2.=         0,instr.=00000110010000000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   20R1.=         4, R2.=         4,instr.=00001000000000011100000000000000,FLG.=1000,OUT.=z00000000000000000000000000000000
+#                   30R1.=         4, R2.=         4,instr.=00100000000010011100000000000000,FLG.=1000,OUT.=z00000000000000000000000000000000
+#                   40R1.=         4, R2.=         4,instr.=00010010000100011100000001000001,FLG.=1000,OUT.=z00000000000000000000000000000000
+#                   50R1.=         4, R2.=         8,instr.=00000001101111000001000000000000,FLG.=1000,OUT.=z11111111111111111111111111111100
+#                   60R1.=         1, R2.=         1,instr.=00001111000000000000000000000000,FLG.=1000,OUT.=z00000000000000000000000000000000
+quit -sim
+# End time: 12:49:25 on Nov 30,2021, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 14
+# Compile of Simple_ALU.v was successful.
+vsim -gui work.Test_ALU
+# vsim -gui work.Test_ALU 
+# Start time: 12:49:46 on Nov 30,2021
+# Loading work.Test_ALU
+# Loading work.simple_ALU
+# Loading work.flag_set
+# Loading work.conditions
+# Loading work.shift_right_register
+# Loading work.shift_left_register
+# Loading work.rotate_right_register
+# Loading work.move_IMM
+# Loading work.bit_adder
+# Loading work.bit_subtractor
+# Loading work.bit_multiplier
+# Loading work.bitwise_OR
+# Loading work.bitwise_and
+# Loading work.bitwise_XOR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'R2'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/flag_set.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/set File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'r1'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/imed File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none4 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/none6 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 28
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op14 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op16 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 37
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op24 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 43
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op26 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op34 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Test_ALU/test/op36 File: C:/Users/keati/Documents/468-Project/ALU/Simple_ALU.v Line: 54
+run -all
+#                    0R1.=         0, R2.=         0,instr.=00000110000110000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   10R1.=         0, R2.=         0,instr.=00000110010000000000000000100000,FLG.=xxxx,OUT.=z00000000000000000000000000000100
+#                   20R1.=         4, R2.=         4,instr.=00001000000000011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   30R1.=         4, R2.=         4,instr.=00100000000010011100000000000000,FLG.=0100,OUT.=000000000000000000000000000000000
+#                   40R1.=         4, R2.=         4,instr.=00010010000100011100000001000001,FLG.=0100,OUT.=000000000000000000000000000001000
+#                   50R1.=         4, R2.=         8,instr.=00000001101111000001000000000000,FLG.=1000,OUT.=111111111111111111111111111111100
+#                   60R1.=         1, R2.=         1,instr.=00001111000000000000000000000000,FLG.=1000,OUT.=000000000000000000000000000000000
+quit -sim
+# End time: 13:11:13 on Nov 30,2021, Elapsed time: 0:21:27
+# Errors: 0, Warnings: 13
+# Compile of 32_bit_adder.v was successful.
+# Compile of 32_bit_multiplier.v was successful.
+# Compile of 32_bit_subtractor.v was successful.
+# Compile of 32_bitwise_AND.v was successful.
+# Compile of 32_bitwise_OR.v was successful.
+# Compile of 32_bitwise_XOR.v was successful.
+# Compile of CMP.v was successful.
+# Compile of codition.v was successful.
+# Compile of flag_set.v was successful.
+# Compile of IMM_Mov.v was successful.
+# Compile of mov_register.v was successful.
+# Compile of parameter_left_shift.v was successful.
+# Compile of parameter_right_shift.v was successful.
+# Compile of paremeter_rotate_right.v was successful.
+# Compile of Simple_ALU.v was successful.
+# Compile of testbench_adder.v was successful.
+# Compile of Testbench_ALU.v was successful.
+# Compile of testbench_AND.v was successful.
+# Compile of testbench_leftshift.v was successful.
+# Compile of testbench_multiplier.v was successful.
+# Compile of testbench_OR.v was successful.
+# Compile of testbench_rightshift.v was successful.
+# Compile of testbench_rotateright.v was successful.
+# Compile of Testbench_subtractor.v was successful.
+# Compile of testbench_XOR.v was successful.
+# 25 compiles, 0 failed with no errors.
