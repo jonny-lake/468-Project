@@ -1,0 +1,26 @@
+module Test_ALU;
+reg [31:0]R1,R2,instr;
+wire[3:0]FLG;
+wire[32:0]out;
+
+
+initial
+begin
+R1=0; R2=0; instr=32'b00000110000110000000000000100000;//load 4
+#10 R1=0; R2=0; instr=32'b00000110010000000000000000100000;//load 4
+#10 R1=4; R2=4; instr=32'b00001000000000011100000000000000;// cmp r1,r2
+#10 R1=4; R2=4; instr=32'b00100000000010011100000000000000;//ADDGT R1, R3, R8
+#10 R1=4; R2=4; instr=32'b00010010000100011100000001000001;//MULEQ R2, R3, R8 LSR#1
+#10 R1=4; R2=8; instr=32'b00000001101111000001000000000000;//SUBS R7, R8, R2
+#10 R1=1; R2=1; instr=32'b00001111000000000000000000000000;//nop
+#10 R1=1; R2=1; instr=32'b00001111000000000000000000000000;//nop
+
+
+end
+
+initial
+begin
+$monitor($time, "R1.=%d, R2.=%d,instr.=%b,FLG.=%b,OUT.=%b",R1,R2,instr,FLG,out);
+end
+simple_ALU test(R1,R2,instr,FLG,out);// Add MUT(.Sum(Result), .A(in1), .B(in2));
+endmodule

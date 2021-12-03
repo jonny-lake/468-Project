@@ -9,592 +9,988 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/keati/Documents/468-Project/ALU
-vbit_adder
-Z0 !s110 1638306677
+vaddBusMux
+Z0 !s110 1638516017
 !i10b 1
-!s100 FbUVN1A`i0FjN_kBHEcUj2
+!s100 IkG^R@53m38ninQXN9Y_41
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I8BgJc7;c>Pm:XTRK0=S2W1
+IGl^ca^cUIS8EN1FfhI[GF1
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/keati/Documents/468-Project
-Z4 w1638234638
-8C:/Users/keati/Documents/468-Project/ALU/32_bit_adder.v
-FC:/Users/keati/Documents/468-Project/ALU/32_bit_adder.v
-!i122 317
-Z5 L0 1 6
-Z6 OV;L;2020.1;71
+Z3 dC:/Users/Jonny Lake/Documents/468/468-Project
+w1638515806
+8C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/addBusMux.v
+!i122 2366
+Z4 L0 1 17
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1638306677.000000
-!s107 C:/Users/keati/Documents/468-Project/ALU/32_bit_adder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bit_adder.v|
+Z6 !s108 1638516017.000000
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux.v|
 !i113 1
-Z8 o-work work
-Z9 tCvgOpt 0
+Z7 o-work work
+Z8 tCvgOpt 0
+nadd@bus@mux
+vaddBusMux_testbench
+Z9 !s110 1638516018
+!i10b 1
+!s100 1e6RY>M^BODTH`Hb:omWz1
+R1
+IJ3FBno;OnC[^So6B6=f5=0
+R2
+R3
+Z10 w1638311743
+8C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux_tb.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/addBusMux_tb.v
+!i122 2367
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux_tb.v|
+!i113 1
+R7
+R8
+nadd@bus@mux_testbench
+vbit_adder
+!s110 1638516016
+!i10b 1
+!s100 FbUVN1A`i0FjN_kBHEcUj2
+R1
+I8f1zk32]IE^<k4jhU:kKS2
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_adder.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/32_bit_adder.v
+!i122 2360
+Z11 L0 1 6
+R5
+r1
+!s85 0
+31
+Z12 !s108 1638516016.000000
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_adder.v|
+!i113 1
+R7
+R8
 vbit_multiplier
 R0
 !i10b 1
 !s100 fJcaQzg7?=Jbi<nCdLmc22
 R1
-I;gBhP1;=Eb3Ja=NjGG`>=3
+IMO@9l?z@HRHCKzl]WVbOG3
 R2
 R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/32_bit_multiplier.v
-FC:/Users/keati/Documents/468-Project/ALU/32_bit_multiplier.v
-!i122 318
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_multiplier.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/32_bit_multiplier.v
+!i122 2361
+R11
 R5
-R6
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/keati/Documents/468-Project/ALU/32_bit_multiplier.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bit_multiplier.v|
+R12
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_multiplier.v|
 !i113 1
+R7
 R8
-R9
 vbit_subtractor
-Z10 !s110 1638306678
+R0
 !i10b 1
 !s100 M3g_Ge^4FR@j4HK`ie^^R3
 R1
-I5e`[cMm]_9gXJY6Zo?7dT3
+IzH>a^8B<MSglRdNb>HoLT3
 R2
 R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/32_bit_subtractor.v
-FC:/Users/keati/Documents/468-Project/ALU/32_bit_subtractor.v
-!i122 319
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_subtractor.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/32_bit_subtractor.v
+!i122 2362
+R11
 R5
-R6
 r1
 !s85 0
 31
-R7
-!s107 C:/Users/keati/Documents/468-Project/ALU/32_bit_subtractor.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bit_subtractor.v|
+R6
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_subtractor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_subtractor.v|
 !i113 1
+R7
 R8
-R9
 vbitwise_and
-R10
+R0
 !i10b 1
 !s100 ^[@6SD7Of3Mgoake9fF142
 R1
-ICPhalLAlQLhKTN?;Xd0DU1
+IARAobl`FdXi;jP7:1z9zd2
 R2
 R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/32_bitwise_AND.v
-FC:/Users/keati/Documents/468-Project/ALU/32_bitwise_AND.v
-!i122 320
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_AND.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_AND.v
+!i122 2363
+R11
 R5
-R6
 r1
 !s85 0
 31
-Z11 !s108 1638306678.000000
-!s107 C:/Users/keati/Documents/468-Project/ALU/32_bitwise_AND.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bitwise_AND.v|
+R6
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_AND.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_AND.v|
 !i113 1
+R7
 R8
-R9
 vbitwise_OR
-R10
+R0
 !i10b 1
 !s100 9RiAie@DjbS9^eebLkzO]0
 R1
-IJNggH2];=^]@5BA<AIaAV0
+IWe?]TfDd1cQjQEIz:T0X93
 R2
 R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v
-FC:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v
-!i122 321
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_OR.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_OR.v
+!i122 2364
+R11
 R5
-R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bitwise_OR.v|
+R6
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_OR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_OR.v|
 !i113 1
+R7
 R8
-R9
 nbitwise_@o@r
 vbitwise_XOR
-R10
+R0
 !i10b 1
 !s100 cA3c5P88Ro2mK1f1cDTZ`0
 R1
-IdI?0VHBh7:ijRbJ[D90?N1
+IHD=b8iF4PBH6?m@6In>^F3
 R2
 R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v
-FC:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v
-!i122 322
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_XOR.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_XOR.v
+!i122 2365
+R11
 R5
-R6
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/32_bitwise_XOR.v|
+R6
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_XOR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_XOR.v|
 !i113 1
+R7
 R8
-R9
 nbitwise_@x@o@r
 vcompare
-Z12 !s110 1638306679
+R9
 !i10b 1
 !s100 fShhj6dM>n^aDZcH?>OhJ3
 R1
-IT4:5iAE@LZG^K:`V^;ZBl3
+I1BYkbQnHSF@Kd1J30dMdB2
 R2
 R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/CMP.v
-FC:/Users/keati/Documents/468-Project/ALU/CMP.v
-!i122 323
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/CMP.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/CMP.v
+!i122 2368
 L0 1 8
-R6
+R5
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/keati/Documents/468-Project/ALU/CMP.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/CMP.v|
+Z13 !s108 1638516018.000000
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/CMP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/CMP.v|
 !i113 1
+R7
 R8
-R9
 vconditions
-R12
+R9
 !i10b 1
 !s100 I>Q4jio^jNQ0EaQ>g5SXA1
 R1
-IB>Z3_B;YP`[D;`Bi7E2aE0
+IFc1AAUj3?[Pknijm6WR4m2
 R2
 R3
-w1638248419
-8C:/Users/keati/Documents/468-Project/ALU/codition.v
-FC:/Users/keati/Documents/468-Project/ALU/codition.v
-!i122 324
-L0 1 20
-R6
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/codition.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/codition.v
+!i122 2369
+Z14 L0 1 20
+R5
 r1
 !s85 0
 31
-Z13 !s108 1638306679.000000
-!s107 C:/Users/keati/Documents/468-Project/ALU/codition.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/codition.v|
+R13
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/codition.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/codition.v|
 !i113 1
+R7
 R8
-R9
+vdecode
+Z15 !s110 1638516023
+!i10b 1
+!s100 hU^P]JIKI4<>b]6BS9ge42
+R1
+IeTAoe3mFYSXWedai?AY1`1
+R2
+R3
+w1638504057
+8C:/Users/Jonny Lake/Documents/468/468-Project/decode.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/decode.v
+!i122 2401
+L0 1 12
+R5
+r1
+!s85 0
+31
+Z16 !s108 1638516023.000000
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/decode.v|
+!i113 1
+R7
+R8
+vfetch
+R15
+!i10b 1
+!s100 N2KZ5I]CZRJUY:Amb]XJ00
+R1
+IZd@WUY^F>eVO9:9foE8ZI3
+R2
+R3
+w1638515649
+8C:/Users/Jonny Lake/Documents/468/468-Project/fetchCycle.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/fetchCycle.v
+!i122 2400
+Z17 L0 1 26
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/fetchCycle.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/fetchCycle.v|
+!i113 1
+R7
+R8
 vflag_set
-R12
+R9
 !i10b 1
 !s100 C`8NW`SbNi?edj_c^b<7f2
 R1
-I0P2g62@?MWSK:WWYzk>o91
+I@:@jTX`CUY4h[OJ5ZYPXZ1
 R2
 R3
-w1638300786
-8C:\Users\keati\Documents\468-Project\ALU\flag_set.v
-FC:\Users\keati\Documents\468-Project\ALU\flag_set.v
-!i122 325
-L0 1 22
-R6
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/flag_set.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/flag_set.v
+!i122 2370
+Z18 L0 1 22
+R5
 r1
 !s85 0
 31
 R13
-!s107 C:\Users\keati\Documents\468-Project\ALU\flag_set.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\keati\Documents\468-Project\ALU\flag_set.v|
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/flag_set.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/flag_set.v|
 !i113 1
+R7
 R8
+vmain
 R9
+!i10b 1
+!s100 <`m?GjU9;gVLWB1`nRzmi3
+R1
+IHAcJW7:1B2VjnI[9l<QY81
+R2
+R3
+w1638468504
+8C:/Users/Jonny Lake/Documents/468/468-Project/main.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/main.v
+!i122 2372
+R18
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/main.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/main.v|
+!i113 1
+R7
+R8
+vmemory_control
+Z19 !s110 1638516019
+!i10b 1
+!s100 nQaOKfUNPa:dLB]Q4nQgO0
+R1
+I15MmCF2MiJjL:hWCLHZZm0
+R2
+R3
+w1638515012
+8C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control.v
+!i122 2374
+L0 1 28
+R5
+r1
+!s85 0
+31
+Z20 !s108 1638516019.000000
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control.v|
+!i113 1
+R7
+R8
+vmemory_control_tb
+R19
+!i10b 1
+!s100 OT:L@:SkG?12IV_>IZ]0G2
+R1
+IPgC30=70h7mz1_^7E@3hW0
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control_tb.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control_tb.v
+!i122 2375
+L0 2 50
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control_tb.v|
+!i113 1
+R7
+R8
 vmove_IMM
-R12
+R9
 !i10b 1
 !s100 2_46o;l?j@Xze6^<oH8@^1
 R1
-IE<_e^;K>Wdne]3JZzWcg62
+Ih6VCgQ2<HLYh<NbUjZUnD2
 R2
 R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v
-FC:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v
-!i122 326
-Z14 L0 1 7
-R6
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/IMM_Mov.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/IMM_Mov.v
+!i122 2371
+Z21 L0 1 7
+R5
 r1
 !s85 0
 31
 R13
-!s107 C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/IMM_Mov.v|
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/IMM_Mov.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/IMM_Mov.v|
 !i113 1
+R7
 R8
-R9
 nmove_@i@m@m
 vmove_register
-Z15 !s110 1638306680
+R19
 !i10b 1
 !s100 c=<jGV_lCf<]:jOcnnEno2
 R1
-IhiiVN:n5gjKH?C5VN;4AB2
+I0jdjU1zen^3h45GZ9POdP0
 R2
 R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/mov_register.v
-FC:/Users/keati/Documents/468-Project/ALU/mov_register.v
-!i122 327
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/mov_register.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/mov_register.v
+!i122 2376
+R21
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/mov_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/mov_register.v|
+!i113 1
+R7
+R8
+vram
+Z22 !s110 1638516020
+!i10b 1
+!s100 @;1;`_@cO@99YzLl=Ii<E3
+R1
+If;e0He>W9JYS[D`lZ[E^<2
+R2
+R3
+w1638514989
+8C:/Users/Jonny Lake/Documents/468/468-Project/ram.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/ram.v
+!i122 2380
+Z23 L0 1 18
+R5
+r1
+!s85 0
+31
+Z24 !s108 1638516020.000000
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/ram.v|
+!i113 1
+R7
+R8
+vram_testbench
+R22
+!i10b 1
+!s100 4bD^nRfTQA`AaQl>=A2:33
+R1
+I2gbm<_KgG[_];E@iP>L<E3
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/ram_tb.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/ram_tb.v
+!i122 2381
 R14
-R6
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/ram_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/ram_tb.v|
+!i113 1
+R7
+R8
+vregister_bank
+R22
+!i10b 1
+!s100 ncA:HjDEAjbA9[MMa`7Z@3
+R1
+IG2FmbcFmoN;1mJc6AD4<_1
+R2
+R3
+w1638515020
+8C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank.v
+!i122 2382
+Z25 L0 1 15
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank.v|
+!i113 1
+R7
+R8
+vregister_bank_tb
+R22
+!i10b 1
+!s100 bzX7g2hkjj3?3<V2@MH7d3
+R1
+IFLD^9:^X2]XRNi^jWb6T83
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank_tb.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank_tb.v
+!i122 2383
+L0 2 53
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank_tb.v|
+!i113 1
+R7
+R8
+vregMux
+R22
+!i10b 1
+!s100 dQoZ_ioKA<@c43k=lh[521
+R1
+I;jfZnKCbeo0[z1BoPO5aC1
+R2
+R3
+w1638515027
+8C:/Users/Jonny Lake/Documents/468/468-Project/regMux.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/regMux.v
+!i122 2384
+R25
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/regMux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/regMux.v|
+!i113 1
+R7
+R8
+nreg@mux
+vregMux_testbench
+Z26 !s110 1638516021
+!i10b 1
+!s100 5z6mXW3Z_CN7XgozTO?<T3
+R1
+Ie>0jSAAzKCSkaSQilXM[72
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/regMux_tb.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/regMux_tb.v
+!i122 2385
+R4
+R5
+r1
+!s85 0
+31
+R24
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/regMux_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/regMux_tb.v|
+!i113 1
+R7
+R8
+nreg@mux_testbench
+vrotate_right_register
+R22
+!i10b 1
+!s100 ndViUNmcUMRQfATU[M?Cc0
+R1
+Iz`[zlJIzaJV4WbkeVEiG13
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/paremeter_rotate_right.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/paremeter_rotate_right.v
+!i122 2379
+R11
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/paremeter_rotate_right.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/paremeter_rotate_right.v|
+!i113 1
+R7
+R8
+vshift_left_register
+R19
+!i10b 1
+!s100 9kMiEMXl3F7QRK]48aJKQ2
+R1
+I;8AJRX`4j7j[QaQ@?O_@o0
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/parameter_left_shift.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/parameter_left_shift.v
+!i122 2377
+R11
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/parameter_left_shift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/parameter_left_shift.v|
+!i113 1
+R7
+R8
+vshift_right_register
+R19
+!i10b 1
+!s100 j<[z]zao6b8M?oNYXC_eS3
+R1
+IjI2F@;Ae6eGeUY>FE5GE61
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/parameter_right_shift.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/parameter_right_shift.v
+!i122 2378
+R11
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/parameter_right_shift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/parameter_right_shift.v|
+!i113 1
+R7
+R8
+vsimple_ALU
+R26
+!i10b 1
+!s100 nUfUFCdRz9K<5aZ]_P0Rh2
+R1
+IfI;KgRO2TU?e::ZjU[Bl[0
+R2
+R3
+w1638515187
+8C:/Users/Jonny Lake/Documents/468/468-Project/Simple_ALU.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/Simple_ALU.v
+!i122 2386
+L0 1 102
+R5
+r1
+!s85 0
+31
+Z27 !s108 1638516021.000000
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/Simple_ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/Simple_ALU.v|
+!i113 1
+R7
+R8
+nsimple_@a@l@u
+vTest_Addder
+R26
+!i10b 1
+!s100 7fzX?3ckL4Tz`=E^BkN^P0
+R1
+IG<GcOcUB9@NGUON@XMCI>0
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/testbench_adder.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/testbench_adder.v
+!i122 2389
+R23
+R5
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/testbench_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/testbench_adder.v|
+!i113 1
+R7
+R8
+n@test_@addder
+vTest_ALU
+Z28 !s110 1638516022
+!i10b 1
+!s100 :B;jEiNJnjnY[DKliFCo;0
+R1
+Ibd8Bgk]jim7LbVV<cnihm1
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_ALU.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/Testbench_ALU.v
+!i122 2390
+R17
+R5
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_ALU.v|
+!i113 1
+R7
+R8
+n@test_@a@l@u
+vTest_AND
+R28
+!i10b 1
+!s100 NC=OR8A2<lGjmQ>R7=2IM1
+R1
+ISHGjX_R7^HaDFGOZ@XHel3
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/testbench_AND.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/testbench_AND.v
+!i122 2391
+R4
+R5
+r1
+!s85 0
+31
+Z29 !s108 1638516022.000000
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/testbench_AND.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/testbench_AND.v|
+!i113 1
+R7
+R8
+n@test_@a@n@d
+vTest_bitwiseOR
+R28
+!i10b 1
+!s100 >kjzIh`6L:zT<C4U>Loek1
+R1
+Ig:>9m^M^FFjB_VXIfb>ao2
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/testbench_OR.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/testbench_OR.v
+!i122 2394
+R4
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/testbench_OR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/testbench_OR.v|
+!i113 1
+R7
+R8
+n@test_bitwise@o@r
+vTest_leftshift
+R28
+!i10b 1
+!s100 ZjOm14R^4hl[5_TiGV7A82
+R1
+InVP;ME6T]ei<@z:S6^^3n3
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/testbench_leftshift.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/testbench_leftshift.v
+!i122 2392
+Z30 L0 1 16
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/testbench_leftshift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/testbench_leftshift.v|
+!i113 1
+R7
+R8
+n@test_leftshift
+vtest_memory
+!s110 1638411283
+!i10b 1
+!s100 P6kbAacPY5<jSlO9PZahN0
+R1
+I[^nLAW4S`;Yc6QHRf[O4?0
+R2
+R3
+w1638319447
+Z31 8C:/Users/Jonny Lake/Documents/468/468-Project/test_mem_write.v
+Z32 FC:/Users/Jonny Lake/Documents/468/468-Project/test_mem_write.v
+!i122 596
+Z33 L0 1 24
+R5
+r1
+!s85 0
+31
+!s108 1638411283.000000
+Z34 !s107 C:/Users/Jonny Lake/Documents/468/468-Project/test_mem_write.v|
+Z35 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/test_mem_write.v|
+!i113 1
+R7
+R8
+vtest_memory1
+R26
+!i10b 1
+!s100 6YFh6T;Ph1Oi=@OF?NQhe0
+R1
+I?knki9izRJ8S2ddIg>ViS2
+R2
+R3
+w1638411894
+R31
+R32
+!i122 2388
+R33
+R5
+r1
+!s85 0
+31
+R27
+R34
+R35
+!i113 1
+R7
+R8
+vTest_multip
+R28
+!i10b 1
+!s100 c5JnnS[G;TAh4lAh?>oF@0
+R1
+I`cbFM96F]d3gcSLC[BY1J2
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/testbench_multiplier.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/testbench_multiplier.v
+!i122 2393
+R4
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/testbench_multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/testbench_multiplier.v|
+!i113 1
+R7
+R8
+n@test_multip
+vTest_rightshift
+R28
+!i10b 1
+!s100 Z0GgL8K^8K8=f53DCNK5k2
+R1
+I4HEOUEXBD:46KERSISN_<3
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rightshift.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/testbench_rightshift.v
+!i122 2395
+L0 2 16
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rightshift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rightshift.v|
+!i113 1
+R7
+R8
+n@test_rightshift
+vTest_rotateright
+R15
+!i10b 1
+!s100 5Gz1`m^3mRmB=9o8HGTS^2
+R1
+I1=YGnZJMJCCn8ooBdniVl0
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rotateright.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/testbench_rotateright.v
+!i122 2396
+R30
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rotateright.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rotateright.v|
+!i113 1
+R7
+R8
+n@test_rotateright
+vTest_sub
+R15
+!i10b 1
+!s100 <^b@NY@8k5EdgJeS;?V:j0
+R1
+INQ?ROz>RBY_UKBiOjI7gh3
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_subtractor.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/Testbench_subtractor.v
+!i122 2397
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_subtractor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_subtractor.v|
+!i113 1
+R7
+R8
+n@test_sub
+vTest_XOR
+R15
+!i10b 1
+!s100 TN1H942?Fn:lkmiSGBe^M0
+R1
+IY7?e4VhiaTeW[PX?kNz[j0
+R2
+R3
+R10
+8C:/Users/Jonny Lake/Documents/468/468-Project/testbench_XOR.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/testbench_XOR.v
+!i122 2398
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/testbench_XOR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/testbench_XOR.v|
+!i113 1
+R7
+R8
+n@test_@x@o@r
+vtestMemory
+R19
+!i10b 1
+!s100 =7gFEDAEBjK@UJ;`4BoRc1
+R1
+IFKJH8gXFAoCoBdPGbzAY92
+R2
+R3
+w1638469605
+8C:/Users/Jonny Lake/Documents/468/468-Project/main_tb.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/main_tb.v
+!i122 2373
+L0 1 33
+R5
 r1
 !s85 0
 31
 R13
-!s107 C:/Users/keati/Documents/468-Project/ALU/mov_register.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/mov_register.v|
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/main_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/main_tb.v|
 !i113 1
+R7
 R8
-R9
-vrotate_right_register
+ntest@memory
+vwtf
 R15
 !i10b 1
-!s100 ndViUNmcUMRQfATU[M?Cc0
+!s100 Jh8CP3@UdXmE741^K^h[32
 R1
-ICg7Oe>i4ZczV290I]WVCW1
+IX?KV`03B<6Sao078i]dQ73
 R2
 R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/paremeter_rotate_right.v
-FC:/Users/keati/Documents/468-Project/ALU/paremeter_rotate_right.v
-!i122 330
+w1638516000
+8C:/Users/Jonny Lake/Documents/468/468-Project/mainTestbenchCombo.v
+FC:/Users/Jonny Lake/Documents/468/468-Project/mainTestbenchCombo.v
+!i122 2399
+L0 1 53
 R5
-R6
-r1
-!s85 0
-31
-Z16 !s108 1638306680.000000
-!s107 C:/Users/keati/Documents/468-Project/ALU/paremeter_rotate_right.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/paremeter_rotate_right.v|
-!i113 1
-R8
-R9
-vshift_left_register
-R15
-!i10b 1
-!s100 9kMiEMXl3F7QRK]48aJKQ2
-R1
-I4bkQo_4CNfFR;fQYhZVPb1
-R2
-R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/parameter_left_shift.v
-FC:/Users/keati/Documents/468-Project/ALU/parameter_left_shift.v
-!i122 328
-R5
-R6
 r1
 !s85 0
 31
 R16
-!s107 C:/Users/keati/Documents/468-Project/ALU/parameter_left_shift.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/parameter_left_shift.v|
+!s107 C:/Users/Jonny Lake/Documents/468/468-Project/mainTestbenchCombo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jonny Lake/Documents/468/468-Project/mainTestbenchCombo.v|
 !i113 1
+R7
 R8
-R9
-vshift_right_register
-R15
-!i10b 1
-!s100 j<[z]zao6b8M?oNYXC_eS3
-R1
-I1gXVj3gldO_6zJRi=RcaU0
-R2
-R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/parameter_right_shift.v
-FC:/Users/keati/Documents/468-Project/ALU/parameter_right_shift.v
-!i122 329
-R5
-R6
-r1
-!s85 0
-31
-R16
-!s107 C:/Users/keati/Documents/468-Project/ALU/parameter_right_shift.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/parameter_right_shift.v|
-!i113 1
-R8
-R9
-vsimple_ALU
-Z17 !s110 1638306681
-!i10b 1
-!s100 kG_EO:NBb=:>V8=ZJARgG1
-R1
-InaoFLLRP>Cj6<l>:ZE3Xz0
-R2
-R3
-w1638305374
-8C:\Users\keati\Documents\468-Project\ALU\Simple_ALU.v
-FC:\Users\keati\Documents\468-Project\ALU\Simple_ALU.v
-!i122 331
-L0 1 101
-R6
-r1
-!s85 0
-31
-R16
-!s107 C:\Users\keati\Documents\468-Project\ALU\Simple_ALU.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\keati\Documents\468-Project\ALU\Simple_ALU.v|
-!i113 1
-R8
-R9
-nsimple_@a@l@u
-vTest_Addder
-R17
-!i10b 1
-!s100 7fzX?3ckL4Tz`=E^BkN^P0
-R1
-IkZ^B;SnGYdbTGja2zB5fb1
-R2
-R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/testbench_adder.v
-FC:/Users/keati/Documents/468-Project/ALU/testbench_adder.v
-!i122 332
-L0 1 18
-R6
-r1
-!s85 0
-31
-Z18 !s108 1638306681.000000
-!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_adder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_adder.v|
-!i113 1
-R8
-R9
-n@test_@addder
-vTest_ALU
-R17
-!i10b 1
-!s100 :B;jEiNJnjnY[DKliFCo;0
-R1
-Ickgc4^GniIG@0hmm2CV^K0
-R2
-R3
-w1638300582
-8C:\Users\keati\Documents\468-Project\ALU\Testbench_ALU.v
-FC:\Users\keati\Documents\468-Project\ALU\Testbench_ALU.v
-!i122 333
-L0 1 26
-R6
-r1
-!s85 0
-31
-R18
-!s107 C:\Users\keati\Documents\468-Project\ALU\Testbench_ALU.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\keati\Documents\468-Project\ALU\Testbench_ALU.v|
-!i113 1
-R8
-R9
-n@test_@a@l@u
-vTest_AND
-R17
-!i10b 1
-!s100 NC=OR8A2<lGjmQ>R7=2IM1
-R1
-IiZTXBD;[j@f4k09I@ORcN3
-R2
-R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/testbench_AND.v
-FC:/Users/keati/Documents/468-Project/ALU/testbench_AND.v
-!i122 334
-Z19 L0 1 17
-R6
-r1
-!s85 0
-31
-R18
-!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_AND.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_AND.v|
-!i113 1
-R8
-R9
-n@test_@a@n@d
-vTest_bitwiseOR
-Z20 !s110 1638306682
-!i10b 1
-!s100 >kjzIh`6L:zT<C4U>Loek1
-R1
-I`Z53lC7`gi6;jncTmR;ii1
-R2
-R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/testbench_OR.v
-FC:/Users/keati/Documents/468-Project/ALU/testbench_OR.v
-!i122 337
-R19
-R6
-r1
-!s85 0
-31
-Z21 !s108 1638306682.000000
-!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_OR.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_OR.v|
-!i113 1
-R8
-R9
-n@test_bitwise@o@r
-vTest_leftshift
-R17
-!i10b 1
-!s100 ZjOm14R^4hl[5_TiGV7A82
-R1
-IQ3ZoeNdZe0LON=Z>zc9WZ2
-R2
-R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/testbench_leftshift.v
-FC:/Users/keati/Documents/468-Project/ALU/testbench_leftshift.v
-!i122 335
-Z22 L0 1 16
-R6
-r1
-!s85 0
-31
-R18
-!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_leftshift.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_leftshift.v|
-!i113 1
-R8
-R9
-n@test_leftshift
-vTest_multip
-R20
-!i10b 1
-!s100 c5JnnS[G;TAh4lAh?>oF@0
-R1
-Ii=DZn8ODDC^8T^NLh>LA[0
-R2
-R3
-Z23 w1638234639
-8C:/Users/keati/Documents/468-Project/ALU/testbench_multiplier.v
-FC:/Users/keati/Documents/468-Project/ALU/testbench_multiplier.v
-!i122 336
-R19
-R6
-r1
-!s85 0
-31
-R21
-!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_multiplier.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_multiplier.v|
-!i113 1
-R8
-R9
-n@test_multip
-vTest_rightshift
-R20
-!i10b 1
-!s100 Z0GgL8K^8K8=f53DCNK5k2
-R1
-IX6nB?C<FaX6T0L>5cDJLM1
-R2
-R3
-R23
-8C:/Users/keati/Documents/468-Project/ALU/testbench_rightshift.v
-FC:/Users/keati/Documents/468-Project/ALU/testbench_rightshift.v
-!i122 338
-L0 2 16
-R6
-r1
-!s85 0
-31
-R21
-!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_rightshift.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_rightshift.v|
-!i113 1
-R8
-R9
-n@test_rightshift
-vTest_rotateright
-R20
-!i10b 1
-!s100 5Gz1`m^3mRmB=9o8HGTS^2
-R1
-IS7P3hK5[aCgB6NeNb[oMf0
-R2
-R3
-R23
-8C:/Users/keati/Documents/468-Project/ALU/testbench_rotateright.v
-FC:/Users/keati/Documents/468-Project/ALU/testbench_rotateright.v
-!i122 339
-R22
-R6
-r1
-!s85 0
-31
-R21
-!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_rotateright.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_rotateright.v|
-!i113 1
-R8
-R9
-n@test_rotateright
-vTest_sub
-Z24 !s110 1638306683
-!i10b 1
-!s100 <^b@NY@8k5EdgJeS;?V:j0
-R1
-IYRQ?XUW2okcI5Vb@@G4dj3
-R2
-R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/Testbench_subtractor.v
-FC:/Users/keati/Documents/468-Project/ALU/Testbench_subtractor.v
-!i122 340
-R19
-R6
-r1
-!s85 0
-31
-R21
-!s107 C:/Users/keati/Documents/468-Project/ALU/Testbench_subtractor.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/Testbench_subtractor.v|
-!i113 1
-R8
-R9
-n@test_sub
-vTest_XOR
-R24
-!i10b 1
-!s100 TN1H942?Fn:lkmiSGBe^M0
-R1
-IC?PIDg>JDcD5d`HgeS7]=2
-R2
-R3
-R4
-8C:/Users/keati/Documents/468-Project/ALU/testbench_XOR.v
-FC:/Users/keati/Documents/468-Project/ALU/testbench_XOR.v
-!i122 341
-R19
-R6
-r1
-!s85 0
-31
-!s108 1638306683.000000
-!s107 C:/Users/keati/Documents/468-Project/ALU/testbench_XOR.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/keati/Documents/468-Project/ALU/testbench_XOR.v|
-!i113 1
-R8
-R9
-n@test_@x@o@r

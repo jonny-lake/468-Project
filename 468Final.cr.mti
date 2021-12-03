@@ -1,0 +1,274 @@
+{C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control_tb.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module memory_control_tb
+
+Top level modules:
+	memory_control_tb
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_bank
+
+Top level modules:
+	register_bank
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_XOR.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_XOR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_XOR
+
+Top level modules:
+	Test_XOR
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_OR.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_OR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_bitwiseOR
+
+Top level modules:
+	Test_bitwiseOR
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_leftshift.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_leftshift.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_leftshift
+
+Top level modules:
+	Test_leftshift
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/Memory_Control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module memory_control
+
+Top level modules:
+	memory_control
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_ALU.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_ALU
+
+Top level modules:
+	Test_ALU
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_multiplier.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_multiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bit_multiplier
+
+Top level modules:
+	bit_multiplier
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/main_tb.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/main_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_memory
+
+Top level modules:
+	test_memory
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_AND.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_AND.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_AND
+
+Top level modules:
+	Test_AND
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/parameter_right_shift.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/parameter_right_shift.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_right_register
+
+Top level modules:
+	shift_right_register
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_subtractor.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_subtractor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bit_subtractor
+
+Top level modules:
+	bit_subtractor
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_OR.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_OR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bitwise_OR
+
+Top level modules:
+	bitwise_OR
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/Simple_ALU.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/Simple_ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module simple_ALU
+
+Top level modules:
+	simple_ALU
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/main.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/main.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module main
+
+Top level modules:
+	main
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank_tb.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/Register_Bank_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_bank_tb
+
+Top level modules:
+	register_bank_tb
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_multiplier.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_multiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_multip
+
+Top level modules:
+	Test_multip
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/mov_register.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/mov_register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module move_register
+
+Top level modules:
+	move_register
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_adder.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_Addder
+
+Top level modules:
+	Test_Addder
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/test_mem_write.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/test_mem_write.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_memory
+
+Top level modules:
+	test_memory
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/regMux.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/regMux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regMux
+
+Top level modules:
+	regMux
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/ram.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/ram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_subtractor.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/Testbench_subtractor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_sub
+
+Top level modules:
+	Test_sub
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/paremeter_rotate_right.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/paremeter_rotate_right.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rotate_right_register
+
+Top level modules:
+	rotate_right_register
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/parameter_left_shift.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/parameter_left_shift.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_left_register
+
+Top level modules:
+	shift_left_register
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/CMP.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/CMP.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module compare
+
+Top level modules:
+	compare
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/test_mem_read.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/test_mem_read.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_memory
+
+Top level modules:
+	test_memory
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/codition.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/codition.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module conditions
+
+Top level modules:
+	conditions
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux_tb.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addBusMux_testbench
+
+Top level modules:
+	addBusMux_testbench
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_adder.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/32_bit_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bit_adder
+
+Top level modules:
+	bit_adder
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rightshift.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rightshift.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_rightshift
+
+Top level modules:
+	Test_rightshift
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_XOR.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_XOR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bitwise_XOR
+
+Top level modules:
+	bitwise_XOR
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rotateright.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/testbench_rotateright.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Test_rotateright
+
+Top level modules:
+	Test_rotateright
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/IMM_Mov.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/IMM_Mov.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module move_IMM
+
+Top level modules:
+	move_IMM
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/regMux_tb.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/regMux_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regMux_testbench
+
+Top level modules:
+	regMux_testbench
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/ram_tb.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/ram_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram_testbench
+
+Top level modules:
+	ram_testbench
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/addBusMux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addBusMux
+
+Top level modules:
+	addBusMux
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/flag_set.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/flag_set.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module flag_set
+
+Top level modules:
+	flag_set
+
+} {} {}} {C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_AND.v} {1 {vlog -work work -stats=none {C:/Users/Jonny Lake/Documents/468/468-Project/32_bitwise_AND.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bitwise_and
+
+Top level modules:
+	bitwise_and
+
+} {} {}}
